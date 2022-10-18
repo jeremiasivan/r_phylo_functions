@@ -1,5 +1,4 @@
 ## Tree Visualization
----
 The following R script can be used to read and plot multitrees in Newick format.
 
 ### Usage (based on *example*)
