@@ -1,9 +1,8 @@
-# this code contains list of functions for gene_tree_annotation.R
+# this code contains list of functions used in gene_tree_annotation.R
 # required packages: logger, ape, hash, seqinr, dplyr, data.table, ggplot2, RColorBrewer
 # required software:
 # - concatenation: seqkit (https://github.com/shenwei356/seqkit)
 # - gene trees: iqtree2 (https://github.com/iqtree/iqtree2)
-# - statistics: n/a (but it requires tree topologies, which you can get using PAML)
 
 library(logger)
 library(ape)
@@ -29,12 +28,14 @@ concatFasta <- function(inputdir, outdir, seqkitdir, nthread, chr){
     dir.create(outdir)
   }
   
+  # storing the path of each fasta file
   log_info("Running concatenation steps...")
   listdir <- paste(outdir,"/list_fasta.txt", sep="")
   fastas <- setNames(data.frame(list.files(inputdir)), "file")
   fastas$file <- paste(inputdir,"/",fastas$file, sep="")
   write.table(fastas, file=listdir, row.names=F, col.names=F, quote=F)
   
+  # concatenation using Seqkit
   concatdir <- paste(outdir,"/",chr,"_concat.fa", sep="")
   system(paste(seqkitdir,"concat -f --quiet --infile-list",listdir,"-j",nthread,"-o",concatdir, sep=" "))
   
@@ -51,12 +52,13 @@ geneTree <- function(inputdir, outdir, iqtreedir, nthread, chr){
     stop("Missing argument: iqtree2 executable (see --help)", call.=FALSE)
   }
   
-  log_info("Generating gene trees...")
   outdir <- paste(outdir,"/trees/",sep="")
   if (file.exists(outdir)==F) {
     dir.create(outdir)
   }
   
+  # constructing phylogenetic trees using IQTree2
+  log_info("Generating gene trees...")
   prefix <- paste(outdir,chr, sep="")
   system(paste(iqtreedir,"-S",inputdir,"--quiet -redo -pre",prefix,"-T",nthread, sep=" "))
   
@@ -69,6 +71,7 @@ geneAnnotate <- function(outdir, topologydir, chr) {
     stop("Missing argument: tree topology directory (see --help)", call.=FALSE)
   }
   
+  # reading input topologies
   log_info("Reading topology file...")
   t_hash <- hash()
   t_count <- 1
@@ -83,6 +86,7 @@ geneAnnotate <- function(outdir, topologydir, chr) {
     t_count <- t_count+1
   }
   
+  # reading each fasta file and its respective topology
   seq_list <- file(description = paste(outdir,"/concatenation/list_fasta.txt",sep=""), open="r", blocking = TRUE)
   iqtree_file <- file(description = paste(outdir,"/trees/",chr,".treefile",sep=""), open="r", blocking = TRUE)
   
@@ -98,6 +102,7 @@ geneAnnotate <- function(outdir, topologydir, chr) {
       break
     }
     
+    # set the topology based on topology map
     ttop <- "NT"
     tl <- read.tree(text=readLines(iqtree_file, n=1))
     tl$edge.length <- NULL
@@ -106,6 +111,7 @@ geneAnnotate <- function(outdir, topologydir, chr) {
       ttop <- as.character(values(t_hash[tree]))
     } 
     
+    # store the annotation
     s <- read.fasta(pl, as.string = T)
     seq_len <- rbind(seq_len, c(pl,chr,start+1,start+getLength(s)[1],getLength(s)[1],tree, ttop))
     
@@ -124,13 +130,15 @@ geneAnnotate <- function(outdir, topologydir, chr) {
 # function for topology-based chromosome visualization
 geneChr <- function(outdir, chr) {
   outdir <- paste(outdir,"/summary/",sep="")
-  seq_annot <- read.csv(paste(outdir,chr,"_annotation.txt",sep=""),sep="\t")
   
+  # reading the annotation file
   log_info("Reading annotation data...")
+  seq_annot <- read.csv(paste(outdir,chr,"_annotation.txt",sep=""),sep="\t")
   dat <- apply(seq_annot, 1,
                function(x) data.table(chromosome = x["chromosome"], bp = x["start"]:x["stop"], topology = x["topology"])) %>%
     rbindlist()
   
+  # plotting the chromosome using random color
   log_info("Plotting...")
   tiff(filename=paste(outdir,chr,"_topology.tiff",sep=""),units="px",width=250,height=1800)
   print(ggplot() + 

@@ -21,7 +21,7 @@ opt <- parse_args(opt_parser)
 
 if (is.null(opt$file)){
   print_help(opt_parser)
-  stop("At least one argument must be supplied (input treefile)", call.=FALSE)
+  stop("Missing argument: treefile directory (see --help)", call.=FALSE)
 }
 
 if (file.exists(opt$out)==F) {
