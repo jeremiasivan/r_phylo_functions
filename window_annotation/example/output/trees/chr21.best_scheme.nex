@@ -1,0 +1,204 @@
+#nexus
+begin sets;
+  charset chr21_1.fa = fastas/chr21_1.fa: ;
+  charset chr21_10.fa = fastas/chr21_10.fa: ;
+  charset chr21_101.fa = fastas/chr21_101.fa: ;
+  charset chr21_102.fa = fastas/chr21_102.fa: ;
+  charset chr21_103.fa = fastas/chr21_103.fa: ;
+  charset chr21_104.fa = fastas/chr21_104.fa: ;
+  charset chr21_105.fa = fastas/chr21_105.fa: ;
+  charset chr21_106.fa = fastas/chr21_106.fa: ;
+  charset chr21_107.fa = fastas/chr21_107.fa: ;
+  charset chr21_109.fa = fastas/chr21_109.fa: ;
+  charset chr21_11.fa = fastas/chr21_11.fa: ;
+  charset chr21_110.fa = fastas/chr21_110.fa: ;
+  charset chr21_116.fa = fastas/chr21_116.fa: ;
+  charset chr21_117.fa = fastas/chr21_117.fa: ;
+  charset chr21_118.fa = fastas/chr21_118.fa: ;
+  charset chr21_119.fa = fastas/chr21_119.fa: ;
+  charset chr21_120.fa = fastas/chr21_120.fa: ;
+  charset chr21_121.fa = fastas/chr21_121.fa: ;
+  charset chr21_122.fa = fastas/chr21_122.fa: ;
+  charset chr21_123.fa = fastas/chr21_123.fa: ;
+  charset chr21_124.fa = fastas/chr21_124.fa: ;
+  charset chr21_125.fa = fastas/chr21_125.fa: ;
+  charset chr21_126.fa = fastas/chr21_126.fa: ;
+  charset chr21_127.fa = fastas/chr21_127.fa: ;
+  charset chr21_128.fa = fastas/chr21_128.fa: ;
+  charset chr21_129.fa = fastas/chr21_129.fa: ;
+  charset chr21_13.fa = fastas/chr21_13.fa: ;
+  charset chr21_130.fa = fastas/chr21_130.fa: ;
+  charset chr21_133.fa = fastas/chr21_133.fa: ;
+  charset chr21_134.fa = fastas/chr21_134.fa: ;
+  charset chr21_14.fa = fastas/chr21_14.fa: ;
+  charset chr21_15.fa = fastas/chr21_15.fa: ;
+  charset chr21_16.fa = fastas/chr21_16.fa: ;
+  charset chr21_17.fa = fastas/chr21_17.fa: ;
+  charset chr21_18.fa = fastas/chr21_18.fa: ;
+  charset chr21_19.fa = fastas/chr21_19.fa: ;
+  charset chr21_2.fa = fastas/chr21_2.fa: ;
+  charset chr21_20.fa = fastas/chr21_20.fa: ;
+  charset chr21_21.fa = fastas/chr21_21.fa: ;
+  charset chr21_22.fa = fastas/chr21_22.fa: ;
+  charset chr21_23.fa = fastas/chr21_23.fa: ;
+  charset chr21_24.fa = fastas/chr21_24.fa: ;
+  charset chr21_25.fa = fastas/chr21_25.fa: ;
+  charset chr21_3.fa = fastas/chr21_3.fa: ;
+  charset chr21_30.fa = fastas/chr21_30.fa: ;
+  charset chr21_31.fa = fastas/chr21_31.fa: ;
+  charset chr21_32.fa = fastas/chr21_32.fa: ;
+  charset chr21_34.fa = fastas/chr21_34.fa: ;
+  charset chr21_35.fa = fastas/chr21_35.fa: ;
+  charset chr21_36.fa = fastas/chr21_36.fa: ;
+  charset chr21_37.fa = fastas/chr21_37.fa: ;
+  charset chr21_38.fa = fastas/chr21_38.fa: ;
+  charset chr21_39.fa = fastas/chr21_39.fa: ;
+  charset chr21_4.fa = fastas/chr21_4.fa: ;
+  charset chr21_41.fa = fastas/chr21_41.fa: ;
+  charset chr21_42.fa = fastas/chr21_42.fa: ;
+  charset chr21_43.fa = fastas/chr21_43.fa: ;
+  charset chr21_44.fa = fastas/chr21_44.fa: ;
+  charset chr21_48.fa = fastas/chr21_48.fa: ;
+  charset chr21_5.fa = fastas/chr21_5.fa: ;
+  charset chr21_57.fa = fastas/chr21_57.fa: ;
+  charset chr21_58.fa = fastas/chr21_58.fa: ;
+  charset chr21_59.fa = fastas/chr21_59.fa: ;
+  charset chr21_6.fa = fastas/chr21_6.fa: ;
+  charset chr21_60.fa = fastas/chr21_60.fa: ;
+  charset chr21_61.fa = fastas/chr21_61.fa: ;
+  charset chr21_65.fa = fastas/chr21_65.fa: ;
+  charset chr21_66.fa = fastas/chr21_66.fa: ;
+  charset chr21_67.fa = fastas/chr21_67.fa: ;
+  charset chr21_68.fa = fastas/chr21_68.fa: ;
+  charset chr21_69.fa = fastas/chr21_69.fa: ;
+  charset chr21_7.fa = fastas/chr21_7.fa: ;
+  charset chr21_70.fa = fastas/chr21_70.fa: ;
+  charset chr21_72.fa = fastas/chr21_72.fa: ;
+  charset chr21_73.fa = fastas/chr21_73.fa: ;
+  charset chr21_74.fa = fastas/chr21_74.fa: ;
+  charset chr21_75.fa = fastas/chr21_75.fa: ;
+  charset chr21_77.fa = fastas/chr21_77.fa: ;
+  charset chr21_78.fa = fastas/chr21_78.fa: ;
+  charset chr21_79.fa = fastas/chr21_79.fa: ;
+  charset chr21_8.fa = fastas/chr21_8.fa: ;
+  charset chr21_80.fa = fastas/chr21_80.fa: ;
+  charset chr21_81.fa = fastas/chr21_81.fa: ;
+  charset chr21_82.fa = fastas/chr21_82.fa: ;
+  charset chr21_83.fa = fastas/chr21_83.fa: ;
+  charset chr21_84.fa = fastas/chr21_84.fa: ;
+  charset chr21_85.fa = fastas/chr21_85.fa: ;
+  charset chr21_86.fa = fastas/chr21_86.fa: ;
+  charset chr21_87.fa = fastas/chr21_87.fa: ;
+  charset chr21_88.fa = fastas/chr21_88.fa: ;
+  charset chr21_89.fa = fastas/chr21_89.fa: ;
+  charset chr21_90.fa = fastas/chr21_90.fa: ;
+  charset chr21_91.fa = fastas/chr21_91.fa: ;
+  charset chr21_92.fa = fastas/chr21_92.fa: ;
+  charset chr21_93.fa = fastas/chr21_93.fa: ;
+  charset chr21_94.fa = fastas/chr21_94.fa: ;
+  charset chr21_95.fa = fastas/chr21_95.fa: ;
+  charset chr21_96.fa = fastas/chr21_96.fa: ;
+  charset chr21_98.fa = fastas/chr21_98.fa: ;
+  charset chr21_99.fa = fastas/chr21_99.fa: ;
+  charpartition mymodels =
+    HKY+F+G4: chr21_1.fa,
+    HKY+F+I: chr21_10.fa,
+    K3Pu+F+I: chr21_101.fa,
+    HKY+F+I: chr21_102.fa,
+    TPM3+F+I: chr21_103.fa,
+    HKY+F+I: chr21_104.fa,
+    HKY+F+G4: chr21_105.fa,
+    HKY+F+I: chr21_106.fa,
+    HKY+F+I: chr21_107.fa,
+    HKY+F+I: chr21_109.fa,
+    TPM2+F+I: chr21_11.fa,
+    HKY+F: chr21_110.fa,
+    HKY+F: chr21_116.fa,
+    TPM2+F: chr21_117.fa,
+    HKY+F+I: chr21_118.fa,
+    TPM3+F+I: chr21_119.fa,
+    TPM2+F+G4: chr21_120.fa,
+    HKY+F+I: chr21_121.fa,
+    TVM+F+I: chr21_122.fa,
+    HKY+F: chr21_123.fa,
+    HKY+F+I: chr21_124.fa,
+    HKY+F+G4: chr21_125.fa,
+    HKY+F+G4: chr21_126.fa,
+    K3Pu+F+G4: chr21_127.fa,
+    HKY+F+I: chr21_128.fa,
+    TPM2+F+G4: chr21_129.fa,
+    TN+F+I: chr21_13.fa,
+    K3Pu+F+I: chr21_130.fa,
+    HKY+F+I: chr21_133.fa,
+    HKY+F+G4: chr21_134.fa,
+    HKY+F: chr21_14.fa,
+    HKY+F: chr21_15.fa,
+    HKY+F+I: chr21_16.fa,
+    HKY+F+G4: chr21_17.fa,
+    TPM3+F: chr21_18.fa,
+    HKY+F+I: chr21_19.fa,
+    K3Pu+F+I: chr21_2.fa,
+    K3Pu+F+I: chr21_20.fa,
+    HKY+F+G4: chr21_21.fa,
+    HKY+F: chr21_22.fa,
+    TN+F+I: chr21_23.fa,
+    HKY+F: chr21_24.fa,
+    HKY+F+G4: chr21_25.fa,
+    HKY+F: chr21_3.fa,
+    HKY+F+I: chr21_30.fa,
+    TPM3+F+I: chr21_31.fa,
+    HKY+F: chr21_32.fa,
+    HKY+F: chr21_34.fa,
+    HKY+F+I: chr21_35.fa,
+    TPM3+F+I: chr21_36.fa,
+    HKY+F+I: chr21_37.fa,
+    HKY+F+G4: chr21_38.fa,
+    HKY+F+I: chr21_39.fa,
+    HKY+F: chr21_4.fa,
+    HKY+F+I: chr21_41.fa,
+    HKY+F+G4: chr21_42.fa,
+    HKY+F: chr21_43.fa,
+    HKY+F: chr21_44.fa,
+    TN+F: chr21_48.fa,
+    HKY+F+G4: chr21_5.fa,
+    TPM2+F+G4: chr21_57.fa,
+    TPM2+F+G4: chr21_58.fa,
+    HKY+F: chr21_59.fa,
+    HKY+F: chr21_6.fa,
+    HKY+F: chr21_60.fa,
+    HKY+F+G4: chr21_61.fa,
+    TPM3+F+I: chr21_65.fa,
+    TVM+F+I: chr21_66.fa,
+    HKY+F+I: chr21_67.fa,
+    HKY+F: chr21_68.fa,
+    HKY+F+G4: chr21_69.fa,
+    HKY+F+G4: chr21_7.fa,
+    TPM2+F+G4: chr21_70.fa,
+    TPM3+F+G4: chr21_72.fa,
+    HKY+F+G4: chr21_73.fa,
+    HKY+F+G4: chr21_74.fa,
+    HKY+F+I: chr21_75.fa,
+    HKY+F+I: chr21_77.fa,
+    HKY+F+I: chr21_78.fa,
+    TPM2+F+G4: chr21_79.fa,
+    HKY+F: chr21_8.fa,
+    TPM3+F+G4: chr21_80.fa,
+    HKY+F+I: chr21_81.fa,
+    HKY+F+G4: chr21_82.fa,
+    HKY+F: chr21_83.fa,
+    HKY+F: chr21_84.fa,
+    TPM3+F: chr21_85.fa,
+    HKY+F+I: chr21_86.fa,
+    HKY+F+G4: chr21_87.fa,
+    HKY+F+I: chr21_88.fa,
+    HKY+F: chr21_89.fa,
+    HKY+F+I: chr21_90.fa,
+    TN+F+G4: chr21_91.fa,
+    TN+F+G4: chr21_92.fa,
+    HKY+F+I: chr21_93.fa,
+    HKY+F+G4: chr21_94.fa,
+    HKY+F: chr21_95.fa,
+    HKY+F: chr21_96.fa,
+    HKY+F+G4: chr21_98.fa,
+    HKY+F+G4: chr21_99.fa;
+end;

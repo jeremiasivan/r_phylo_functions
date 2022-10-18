@@ -1,0 +1,84 @@
+> HmelRef
+-ATATGTATTACCATA------------------------------------------------------
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+-------------------------------------------------G-----------TAGTCACCG
+TGCC---------------------------------------------------------------A--
+----------------------------------------------------------------------
+-------------------------------CT---------------------------------
+> HeraRef
+TATATGTATTACCATATATATAGATATTATATATATATAAGTATATAATAATATATTAAAAATCAGCTTT
+ATTTATTTTTCATCATCATATTACTCTTTTCCATATACTTGTCCAACATATCATACACCAAACAACAATT
+AAACTTTTTTCGCTCGCGTCTTCGCTCCTTAAATCGACTTAAGCCGATTCTGAAATAAGTGGTTGAACAG
+AAAAATAAAAGAAAATATTAATTTAAAATAGTCACTGTATCGGGTTTATTACTTACCGTGTAAAATATGA
+TTTATGAAAAAATATAGTATTAAAATGGTCGAAAGAAATATATAGTGTACGATATATCACATAAAACCAT
+GAAGAATTATTCTGTAGTTCATTTCATAAACAAAAAAGTAATGTGTTTTTTTTTTTTATTGTAATACAAT
+TTAAGTAGTAGGTGCTGTACTGTGTACCTGACAAGCAGGCTCGCGACTTGACTATTATGATTTTATTACA
+CTCGGGTTCTAAGAGTATTCATGCAAAGAGATAAATAGGCTCCTAAAATCGTTGCGCGTATCAGTCACTG
+TGCCTTTAATATAAAAAAATAAAAAGTATATATATAGATATATAATATATCAATATAGTTTTTTTTTTAT
+ATTTTATATATTAATAATTACATAAAAATATTAGACTTCCGGCGTGGTGTGTGTGTGTGTGTGTGTGTGT
+GTGTGTGTTGTTGAACCAATGTGTAGAAAGACTTCTTTGTCCAAAATGCCAGAATTTACTCATTCG
+> Hhim
+TATATGTATTACCATATATATATATA-TATATATATATATATATATATATATATATTTGAGATCAGT--T
+ATTTAATCTACACGATCATATTACACTACTCTACTTACTCGTACAACATA-CATA---CAAAAAACAATT
+AAACCAAT-TTGCTTGAGTCTCCGCTCCTTAAATCGGC-TAAGCCGTTTCTGAGATAAGCGGACGAACAG
+AAAAACCAAGAAACAGACAAAATTTAAATA-TCACTCTATCTGGTCTATTACTTCCCGTGG--ACTATGA
+TTTATGAAAAAATATAGTAT--AAATATACGAAAAACATATATAGT-TACGATACATCACATAAAACCAT
+GAAGAATTATTCTGTAGTTCATTTCATAA-C--AAAAATAATGCATACTTTAGTTTTATTGT----CAAT
+TTAAGTAGTAGGTGCTGTACTGTTGACCT-ACAAGCCGACTCGC-ACTTGACTATTAT-ATTTTATTCCA
+CTCGGGTTCTAAGAGTAGTGATGCAAAGAGATAAA--------------CGTCGCGT---TTAGTCACCG
+TACC---------------------------------------------------------------A--
+-------------------------------------------GTGGTGTCTGTGTGTGTGTGTGTGTGT
+GTGTGTGTTTTA-------------------------------------C----------------
+> Hhsa
+TATATGTATTACCATA------------------------------------------------------
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+--------------TAGTATAAAAATATCCGAAAAACATTTATAGT-TACGATATATCACATAAAACCAT
+GAAAAATTATTCTGTAGTTCATTTCATA--C--AAAAATAATGCATACCTGAA-----------------
+----------------------------------------------------------------------
+-------------------------------------------------CGTCGCCT---TTAGTCACTA
+TACC---------------------------------------------------------------A--
+-------------------------------------------GTGGTGTG------------TGTGTTT
+GTGTGTGTTTAA-------------------CC---------------------------------
+> Htel
+TATCTGTATTACCATA------------------------------------------------------
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+--------------------------------------------TCTAATACTTCTCGTGG--ACTATGA
+TTTATGAAAAATTCTGGTATAAAAATATCCGAAAAACATTTATTTT-TAT----TATCACATAAAACCAT
+GAAGAATTATTCAGTAGTCAACTTCATA--C--AAAAATAATACATACTTTAG-----TTAT----CAAT
+TTAAG----------------------------------------ACTTGAC----AT-ACATTATTACA
+CTTAGTTTCTAAGAGTAATGATGCAAAGAGATTAA--------------CATCGCGT---TTAGTCTCTG
+TACC---------------------------------------------------------------A--
+-------------------------------------------GTGGTGTG-------------------
+-TGTGTGTTTAA-------------------CT----------------A----------------
+> Hdem
+TATATGTATTACCATA------------------------------------------------------
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+--------------------------------------------TATAATACTTCTCGTGG--ACTGTGA
+TTTATGAAAAATTAAAGTATAAAAATATCTAA-AAACATTTATAGT-TAC----CATCACATAAAACCAC
+GAAGAATTATTCTTTAGTTCATTTCATA--C--AAAAATAATGCATACTTTAG-----TTGT----CTAT
+TTAAG----------------------------------------ACTTGAC----AT-ATTTTATAACA
+CTAACGTTCTAAGAGTAGTGATGCAAAGAGATAAA--------------CGTCGCGT---TGAGTCACCG
+TACC---------------------------------------------------------------T--
+----------------------------------------------GTGTG-------------------
+-TGTGTGTTTAA-------------------CT----------------A----------------
+> Hsar
+-TACTATA--------------------------------------------------------------
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+TTAAG-----------------------------------------------------------------
+--------------GTCGTGATGCAAAGAGATAAA--------------CGTCGCGC---TTAGTCACTG
+TACC---------------------------------------------------------------A--
+----------------------------------------------GCGTG-------------------
+-TGTGTGTTTAA------------------------------------------------------

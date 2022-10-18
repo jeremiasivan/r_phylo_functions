@@ -1,0 +1,2040 @@
+IQ-TREE multicore version 2.1.2 COVID-edition for Mac OS X 64-bit built Oct 22 2020
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    RSB-061231 (SSE4.2, 8 GB RAM)
+Command: ../../../iqtree2 -S fastas/ --quiet -redo -pre output/trees/chr21 -T 4
+Seed:    159423 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Tue Oct 18 17:20:09 2022
+Kernel:  SSE2 - 4 threads (8 CPU cores detected)
+
+Reading 100 alignment files in directory fastas/
+Reading alignment file fastas/chr21_1.fa ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 7 sequences with 2383 columns, 216 distinct patterns
+109 parsimony-informative, 264 singleton sites, 2010 constant sites
+         Gap/Ambiguity  Composition  p-value
+   1  HmelRef   18.51%    passed     97.91%
+   2  HeraRef    0.00%    passed     78.37%
+   3  Hhim       1.01%    passed     72.49%
+   4  Hhsa      17.37%    passed     89.01%
+   5  Htel      17.42%    passed     88.49%
+   6  Hdem      18.25%    passed     71.05%
+   7  Hsar      18.97%    passed     78.83%
+****  TOTAL     13.07%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+Reading alignment file fastas/chr21_10.fa ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 7 sequences with 4838 columns, 489 distinct patterns
+278 parsimony-informative, 625 singleton sites, 3935 constant sites
+         Gap/Ambiguity  Composition  p-value
+   1  HmelRef   43.12%    passed     58.33%
+   2  HeraRef    0.00%    passed     56.68%
+   3  Hhim       0.48%    passed     47.16%
+   4  Hhsa       3.70%    passed      5.23%
+   5  Htel      24.72%    passed     11.53%
+   6  Hdem      19.57%    passed     46.61%
+   7  Hsar      20.86%    passed     27.06%
+****  TOTAL     16.06%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+Reading alignment file fastas/chr21_101.fa ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 7 sequences with 4761 columns, 543 distinct patterns
+210 parsimony-informative, 748 singleton sites, 3803 constant sites
+         Gap/Ambiguity  Composition  p-value
+   1  HmelRef   99.47%    passed     20.23%
+   2  HeraRef    0.00%    passed     99.43%
+   3  Hhim      13.76%    passed     61.48%
+   4  Hhsa      28.27%    passed     36.79%
+   5  Htel      18.65%    passed     95.99%
+   6  Hdem      24.49%    passed     95.51%
+   7  Hsar      23.69%    passed     82.10%
+WARNING: 1 sequences contain more than 50% gaps/ambiguity
+****  TOTAL     29.76%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+Reading alignment file fastas/chr21_102.fa ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 7 sequences with 4501 columns, 679 distinct patterns
+248 parsimony-informative, 865 singleton sites, 3388 constant sites
+         Gap/Ambiguity  Composition  p-value
+   1  HmelRef   71.38%    passed     11.63%
+   2  HeraRef    0.00%    passed     74.94%
+   3  Hhim       4.15%    passed     99.82%
+   4  Hhsa      11.04%    passed     95.81%
+   5  Htel      15.80%    passed     99.20%
+   6  Hdem      16.75%    passed     89.42%
+   7  Hsar      21.55%    passed     88.25%
+WARNING: 1 sequences contain more than 50% gaps/ambiguity
+****  TOTAL     20.10%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+Reading alignment file fastas/chr21_103.fa ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 7 sequences with 4691 columns, 638 distinct patterns
+219 parsimony-informative, 893 singleton sites, 3579 constant sites
+         Gap/Ambiguity  Composition  p-value
+   1  HmelRef   19.87%    passed     81.93%
+   2  HeraRef    0.00%    passed     97.24%
+   3  Hhim       5.41%    passed     99.23%
+   4  Hhsa       6.48%    passed     89.94%
+   5  Htel       4.95%    passed     81.84%
+   6  Hdem       3.73%    passed     97.69%
+   7  Hsar      13.32%    passed     45.76%
+****  TOTAL      7.68%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+Reading alignment file fastas/chr21_104.fa ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 7 sequences with 4997 columns, 563 distinct patterns
+230 parsimony-informative, 776 singleton sites, 3991 constant sites
+         Gap/Ambiguity  Composition  p-value
+   1  HmelRef   59.10%    passed      6.44%
+   2  HeraRef    0.00%    passed     15.74%
+   3  Hhim      21.59%    passed    100.00%
+   4  Hhsa      29.48%    passed     98.14%
+   5  Htel      23.87%    passed     98.43%
+   6  Hdem      25.56%    passed     91.18%
+   7  Hsar      27.88%    passed     99.47%
+WARNING: 1 sequences contain more than 50% gaps/ambiguity
+****  TOTAL     26.78%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+Reading alignment file fastas/chr21_105.fa ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 7 sequences with 5000 columns, 569 distinct patterns
+210 parsimony-informative, 818 singleton sites, 3972 constant sites
+         Gap/Ambiguity  Composition  p-value
+   1  HmelRef   99.98%    passed     18.48%
+   2  HeraRef    0.00%    passed     75.29%
+   3  Hhim      15.18%    passed     80.43%
+   4  Hhsa      21.52%    passed     63.61%
+   5  Htel      23.28%    passed     95.87%
+   6  Hdem      34.02%    passed     88.26%
+   7  Hsar      27.90%    passed     50.16%
+WARNING: 1 sequences contain more than 50% gaps/ambiguity
+****  TOTAL     31.70%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+Reading alignment file fastas/chr21_106.fa ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 7 sequences with 4552 columns, 453 distinct patterns
+160 parsimony-informative, 715 singleton sites, 3677 constant sites
+         Gap/Ambiguity  Composition  p-value
+   1  HmelRef   99.98%    passed     54.20%
+   2  HeraRef    0.00%    passed     67.27%
+   3  Hhim      24.19%    passed     87.54%
+   4  Hhsa      25.70%    passed     91.15%
+   5  Htel      37.10%    passed     99.11%
+   6  Hdem      38.18%    passed     98.14%
+   7  Hsar      41.23%    passed     63.05%
+WARNING: 1 sequences contain more than 50% gaps/ambiguity
+****  TOTAL     38.06%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+Reading alignment file fastas/chr21_107.fa ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 7 sequences with 4760 columns, 747 distinct patterns
+261 parsimony-informative, 1005 singleton sites, 3493 constant sites
+         Gap/Ambiguity  Composition  p-value
+   1  HmelRef   79.26%    passed      9.49%
+   2  HeraRef    0.00%    passed     48.10%
+   3  Hhim      15.63%    passed     64.06%
+   4  Hhsa       7.00%    passed     93.57%
+   5  Htel       6.91%    passed     84.98%
+   6  Hdem      15.17%    passed     99.08%
+   7  Hsar      22.23%    passed     59.10%
+WARNING: 1 sequences contain more than 50% gaps/ambiguity
+****  TOTAL     20.89%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+Reading alignment file fastas/chr21_109.fa ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 7 sequences with 4523 columns, 664 distinct patterns
+242 parsimony-informative, 777 singleton sites, 3504 constant sites
+         Gap/Ambiguity  Composition  p-value
+   1  HmelRef   70.75%    passed     95.22%
+   2  HeraRef    0.00%    passed     68.89%
+   3  Hhim       6.08%    passed     98.72%
+   4  Hhsa      10.63%    passed     89.32%
+   5  Htel      10.90%    passed     71.40%
+   6  Hdem      33.10%    passed     82.80%
+   7  Hsar      38.56%    passed     82.60%
+WARNING: 1 sequences contain more than 50% gaps/ambiguity
+****  TOTAL     24.29%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+Reading alignment file fastas/chr21_11.fa ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 7 sequences with 4100 columns, 560 distinct patterns
+247 parsimony-informative, 616 singleton sites, 3237 constant sites
+         Gap/Ambiguity  Composition  p-value
+   1  HmelRef   50.05%    failed      0.26%
+   2  HeraRef    0.00%    passed     65.75%
+   3  Hhim       7.73%    passed     86.68%
+   4  Hhsa      16.51%    passed     98.20%
+   5  Htel      21.00%    passed     29.98%
+   6  Hdem      23.68%    passed     83.58%
+   7  Hsar      29.90%    passed     99.36%
+WARNING: 1 sequences contain more than 50% gaps/ambiguity
+****  TOTAL     21.27%  1 sequences failed composition chi2 test (p-value<5%; df=3)
+Reading alignment file fastas/chr21_110.fa ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 7 sequences with 1208 columns, 233 distinct patterns
+73 parsimony-informative, 185 singleton sites, 950 constant sites
+         Gap/Ambiguity  Composition  p-value
+   1  HmelRef   96.69%    passed     55.83%
+   2  HeraRef    0.00%    passed     91.56%
+   3  Hhim       0.25%    passed     93.08%
+   4  Hhsa       3.48%    passed     99.61%
+   5  Htel      25.91%    passed     70.69%
+   6  Hdem      48.26%    passed      7.88%
+   7  Hsar      37.09%    passed     50.84%
+WARNING: 1 sequences contain more than 50% gaps/ambiguity
+****  TOTAL     30.24%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+Reading alignment file fastas/chr21_116.fa ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 7 sequences with 3766 columns, 493 distinct patterns
+162 parsimony-informative, 630 singleton sites, 2974 constant sites
+         Gap/Ambiguity  Composition  p-value
+   1  HmelRef   95.03%    failed      1.10%
+   2  HeraRef    0.00%    passed     33.83%
+   3  Hhim       3.53%    passed     92.25%
+   4  Hhsa      12.69%    passed     85.64%
+   5  Htel      34.47%    passed     22.55%
+   6  Hdem      77.96%    passed     96.63%
+   7  Hsar      46.07%    passed     53.43%
+WARNING: 2 sequences contain more than 50% gaps/ambiguity
+****  TOTAL     38.54%  1 sequences failed composition chi2 test (p-value<5%; df=3)
+Reading alignment file fastas/chr21_117.fa ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 7 sequences with 4607 columns, 802 distinct patterns
+210 parsimony-informative, 989 singleton sites, 3408 constant sites
+         Gap/Ambiguity  Composition  p-value
+   1  HmelRef   79.60%    passed     13.91%
+   2  HeraRef    0.00%    passed     88.66%
+   3  Hhim      11.14%    passed     85.19%
+   4  Hhsa      34.51%    passed     43.79%
+   5  Htel      20.06%    passed     59.34%
+   6  Hdem      40.13%    passed     87.94%
+   7  Hsar      51.05%    passed     98.85%
+WARNING: 2 sequences contain more than 50% gaps/ambiguity
+****  TOTAL     33.78%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+Reading alignment file fastas/chr21_118.fa ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 7 sequences with 4801 columns, 813 distinct patterns
+284 parsimony-informative, 910 singleton sites, 3607 constant sites
+         Gap/Ambiguity  Composition  p-value
+   1  HmelRef   74.88%    passed     39.00%
+   2  HeraRef    0.00%    passed     87.91%
+   3  Hhim      26.06%    passed     97.47%
+   4  Hhsa      23.70%    passed     67.30%
+   5  Htel      20.58%    passed     81.46%
+   6  Hdem      28.39%    passed     90.73%
+   7  Hsar      30.04%    passed     91.79%
+WARNING: 1 sequences contain more than 50% gaps/ambiguity
+****  TOTAL     29.09%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+Reading alignment file fastas/chr21_119.fa ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 7 sequences with 4781 columns, 767 distinct patterns
+157 parsimony-informative, 892 singleton sites, 3732 constant sites
+         Gap/Ambiguity  Composition  p-value
+   1  HmelRef   70.40%    passed     22.65%
+   2  HeraRef    0.00%    passed     25.75%
+   3  Hhim      17.28%    passed     56.38%
+   4  Hhsa      32.38%    passed     85.69%
+   5  Htel      33.24%    passed     95.06%
+   6  Hdem      52.96%    passed     10.06%
+   7  Hsar      40.58%    passed     89.80%
+WARNING: 2 sequences contain more than 50% gaps/ambiguity
+****  TOTAL     35.26%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+Reading alignment file fastas/chr21_120.fa ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 7 sequences with 4772 columns, 541 distinct patterns
+140 parsimony-informative, 781 singleton sites, 3851 constant sites
+         Gap/Ambiguity  Composition  p-value
+   1  HmelRef   54.32%    passed     43.26%
+   2  HeraRef    0.00%    passed     97.92%
+   3  Hhim       6.98%    passed     74.93%
+   4  Hhsa       4.09%    passed     77.60%
+   5  Htel       6.12%    passed     76.55%
+   6  Hdem       7.29%    passed     92.33%
+   7  Hsar       8.76%    passed     98.22%
+WARNING: 1 sequences contain more than 50% gaps/ambiguity
+****  TOTAL     12.51%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+Reading alignment file fastas/chr21_121.fa ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 7 sequences with 4988 columns, 723 distinct patterns
+230 parsimony-informative, 1034 singleton sites, 3723 constant sites
+         Gap/Ambiguity  Composition  p-value
+   1  HmelRef   28.25%    passed     53.33%
+   2  HeraRef    0.00%    passed     98.86%
+   3  Hhim       7.76%    passed     56.47%
+   4  Hhsa      17.90%    passed     47.63%
+   5  Htel      10.69%    passed     90.93%
+   6  Hdem      10.93%    passed     86.29%
+   7  Hsar      16.36%    passed     39.25%
+****  TOTAL     13.13%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+Reading alignment file fastas/chr21_122.fa ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 7 sequences with 4721 columns, 708 distinct patterns
+168 parsimony-informative, 888 singleton sites, 3665 constant sites
+         Gap/Ambiguity  Composition  p-value
+   1  HmelRef   80.81%    passed     55.73%
+   2  HeraRef    0.00%    passed     97.10%
+   3  Hhim      14.34%    passed     79.98%
+   4  Hhsa      14.59%    passed     81.26%
+   5  Htel      12.79%    passed     25.21%
+   6  Hdem      45.20%    passed     15.77%
+   7  Hsar      51.20%    failed      2.83%
+WARNING: 2 sequences contain more than 50% gaps/ambiguity
+****  TOTAL     31.28%  1 sequences failed composition chi2 test (p-value<5%; df=3)
+Reading alignment file fastas/chr21_123.fa ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 7 sequences with 4309 columns, 659 distinct patterns
+217 parsimony-informative, 701 singleton sites, 3391 constant sites
+         Gap/Ambiguity  Composition  p-value
+   1  HmelRef   75.75%    passed     35.26%
+   2  HeraRef    0.00%    passed     83.36%
+   3  Hhim      46.97%    passed     11.49%
+   4  Hhsa      49.71%    passed     80.86%
+   5  Htel      26.99%    passed     10.57%
+   6  Hdem      38.45%    passed     88.31%
+   7  Hsar      46.93%    passed     72.50%
+WARNING: 1 sequences contain more than 50% gaps/ambiguity
+****  TOTAL     40.69%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+Reading alignment file fastas/chr21_124.fa ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 7 sequences with 4998 columns, 587 distinct patterns
+216 parsimony-informative, 922 singleton sites, 3860 constant sites
+         Gap/Ambiguity  Composition  p-value
+   1  HmelRef   82.75%    passed     69.37%
+   2  HeraRef    0.00%    passed     89.53%
+   3  Hhim       6.02%    passed     93.10%
+   4  Hhsa       8.42%    passed     86.35%
+   5  Htel      17.85%    passed     86.42%
+   6  Hdem      17.55%    passed     67.18%
+   7  Hsar      24.89%    passed     45.59%
+WARNING: 1 sequences contain more than 50% gaps/ambiguity
+****  TOTAL     22.50%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+Reading alignment file fastas/chr21_125.fa ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 7 sequences with 5000 columns, 590 distinct patterns
+244 parsimony-informative, 908 singleton sites, 3847 constant sites
+         Gap/Ambiguity  Composition  p-value
+   1  HmelRef   68.76%    passed     49.09%
+   2  HeraRef    0.00%    passed     75.26%
+   3  Hhim       6.62%    passed     96.45%
+   4  Hhsa      16.16%    passed     78.93%
+   5  Htel      11.42%    passed     96.14%
+   6  Hdem      10.90%    passed     96.88%
+   7  Hsar      15.62%    passed     92.14%
+WARNING: 1 sequences contain more than 50% gaps/ambiguity
+****  TOTAL     18.50%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+Reading alignment file fastas/chr21_126.fa ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 7 sequences with 4999 columns, 634 distinct patterns
+236 parsimony-informative, 941 singleton sites, 3822 constant sites
+         Gap/Ambiguity  Composition  p-value
+   1  HmelRef   57.35%    passed     42.71%
+   2  HeraRef    0.00%    passed     97.52%
+   3  Hhim       1.24%    passed     97.24%
+   4  Hhsa       8.86%    passed     97.58%
+   5  Htel      10.04%    passed     43.34%
+   6  Hdem       8.96%    passed     97.32%
+   7  Hsar      21.58%    passed     98.65%
+WARNING: 1 sequences contain more than 50% gaps/ambiguity
+****  TOTAL     15.43%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+Reading alignment file fastas/chr21_127.fa ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 7 sequences with 4998 columns, 747 distinct patterns
+291 parsimony-informative, 1017 singleton sites, 3690 constant sites
+         Gap/Ambiguity  Composition  p-value
+   1  HmelRef   31.05%    passed     17.15%
+   2  HeraRef    0.00%    passed     79.31%
+   3  Hhim       1.92%    passed     98.48%
+   4  Hhsa      16.09%    passed     34.91%
+   5  Htel      11.56%    passed     93.17%
+   6  Hdem       6.30%    passed     93.39%
+   7  Hsar      14.07%    passed     91.94%
+****  TOTAL     11.57%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+Reading alignment file fastas/chr21_128.fa ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 7 sequences with 4999 columns, 540 distinct patterns
+264 parsimony-informative, 760 singleton sites, 3975 constant sites
+         Gap/Ambiguity  Composition  p-value
+   1  HmelRef   83.04%    failed      0.00%
+   2  HeraRef    0.00%    passed     96.78%
+   3  Hhim       2.84%    passed     89.86%
+   4  Hhsa       8.40%    passed     90.71%
+   5  Htel      11.18%    passed     94.40%
+   6  Hdem      11.80%    passed     98.87%
+   7  Hsar      13.94%    passed     86.50%
+WARNING: 1 sequences contain more than 50% gaps/ambiguity
+****  TOTAL     18.74%  1 sequences failed composition chi2 test (p-value<5%; df=3)
+Reading alignment file fastas/chr21_129.fa ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 7 sequences with 4730 columns, 533 distinct patterns
+168 parsimony-informative, 764 singleton sites, 3797 constant sites
+         Gap/Ambiguity  Composition  p-value
+   1  HmelRef   44.82%    failed      0.75%
+   2  HeraRef    0.00%    passed     75.81%
+   3  Hhim       4.40%    passed     89.64%
+   4  Hhsa       8.33%    passed     69.30%
+   5  Htel       4.97%    passed     87.50%
+   6  Hdem       5.69%    passed     98.79%
+   7  Hsar      10.76%    passed     85.81%
+****  TOTAL     11.28%  1 sequences failed composition chi2 test (p-value<5%; df=3)
+Reading alignment file fastas/chr21_13.fa ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 7 sequences with 2623 columns, 386 distinct patterns
+128 parsimony-informative, 398 singleton sites, 2097 constant sites
+         Gap/Ambiguity  Composition  p-value
+   1  HmelRef   49.22%    passed     18.46%
+   2  HeraRef    0.00%    passed     51.48%
+   3  Hhim       1.52%    passed     71.96%
+   4  Hhsa      13.27%    passed     66.32%
+   5  Htel      14.37%    passed     91.68%
+   6  Hdem      30.77%    passed     16.30%
+   7  Hsar      17.54%    passed     98.11%
+****  TOTAL     18.10%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+Reading alignment file fastas/chr21_130.fa ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 7 sequences with 1079 columns, 298 distinct patterns
+87 parsimony-informative, 240 singleton sites, 752 constant sites
+         Gap/Ambiguity  Composition  p-value
+   1  HmelRef   26.88%    passed     22.92%
+   2  HeraRef    0.00%    passed     69.71%
+   3  Hhim       1.85%    passed     93.42%
+   4  Hhsa      20.95%    passed     73.54%
+   5  Htel       8.71%    passed     95.82%
+   6  Hdem      15.01%    passed     87.11%
+   7  Hsar      18.16%    passed     86.52%
+****  TOTAL     13.08%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+Reading alignment file fastas/chr21_133.fa ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 7 sequences with 1270 columns, 241 distinct patterns
+92 parsimony-informative, 260 singleton sites, 918 constant sites
+         Gap/Ambiguity  Composition  p-value
+   1  HmelRef   81.89%    passed     30.61%
+   2  HeraRef    0.00%    passed     99.60%
+   3  Hhim       1.10%    passed     97.03%
+   4  Hhsa       4.33%    passed     98.77%
+   5  Htel       1.18%    passed     96.85%
+   6  Hdem       3.46%    passed     98.06%
+   7  Hsar       3.78%    passed     98.58%
+WARNING: 1 sequences contain more than 50% gaps/ambiguity
+****  TOTAL     13.68%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+Reading alignment file fastas/chr21_134.fa ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 7 sequences with 4086 columns, 748 distinct patterns
+197 parsimony-informative, 779 singleton sites, 3110 constant sites
+         Gap/Ambiguity  Composition  p-value
+   1  HmelRef   77.51%    passed     39.23%
+   2  HeraRef    0.00%    passed     99.04%
+   3  Hhim      23.35%    passed     49.15%
+   4  Hhsa      14.46%    passed     98.36%
+   5  Htel      18.82%    passed     87.88%
+   6  Hdem      35.71%    passed     81.56%
+   7  Hsar      61.85%    passed     86.01%
+WARNING: 2 sequences contain more than 50% gaps/ambiguity
+****  TOTAL     33.10%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+Reading alignment file fastas/chr21_14.fa ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 7 sequences with 4411 columns, 403 distinct patterns
+171 parsimony-informative, 345 singleton sites, 3895 constant sites
+         Gap/Ambiguity  Composition  p-value
+   1  HmelRef   92.04%    failed      4.39%
+   2  HeraRef    0.00%    passed     50.09%
+   3  Hhim      32.69%    passed     87.71%
+   4  Hhsa      49.29%    passed     69.99%
+   5  Htel      80.53%    passed     45.49%
+   6  Hdem      64.75%    passed     43.72%
+   7  Hsar      63.57%    passed     59.68%
+WARNING: 4 sequences contain more than 50% gaps/ambiguity
+****  TOTAL     54.69%  1 sequences failed composition chi2 test (p-value<5%; df=3)
+Reading alignment file fastas/chr21_15.fa ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 7 sequences with 1676 columns, 269 distinct patterns
+131 parsimony-informative, 210 singleton sites, 1335 constant sites
+         Gap/Ambiguity  Composition  p-value
+   1  HmelRef   99.11%    passed     12.31%
+   2  HeraRef    0.00%    passed     89.84%
+   3  Hhim       1.97%    passed     89.33%
+   4  Hhsa      51.19%    passed     14.81%
+   5  Htel      26.31%    passed     75.92%
+   6  Hdem      20.82%    passed     85.29%
+   7  Hsar      53.16%    passed     51.03%
+WARNING: 3 sequences contain more than 50% gaps/ambiguity
+****  TOTAL     36.08%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+Reading alignment file fastas/chr21_16.fa ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 7 sequences with 2905 columns, 431 distinct patterns
+167 parsimony-informative, 492 singleton sites, 2246 constant sites
+         Gap/Ambiguity  Composition  p-value
+   1  HmelRef   46.61%    passed     17.51%
+   2  HeraRef    0.00%    passed     77.15%
+   3  Hhim       0.00%    passed     81.14%
+   4  Hhsa       4.82%    passed     90.66%
+   5  Htel      28.67%    passed     99.01%
+   6  Hdem      21.07%    passed     91.17%
+   7  Hsar      25.23%    passed     96.77%
+****  TOTAL     18.06%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+Reading alignment file fastas/chr21_17.fa ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 7 sequences with 4673 columns, 613 distinct patterns
+233 parsimony-informative, 726 singleton sites, 3714 constant sites
+         Gap/Ambiguity  Composition  p-value
+   1  HmelRef   65.72%    passed     77.94%
+   2  HeraRef    0.00%    passed     49.12%
+   3  Hhim      18.38%    passed     33.17%
+   4  Hhsa       7.70%    passed     89.41%
+   5  Htel      16.80%    passed     92.90%
+   6  Hdem      20.93%    passed     70.95%
+   7  Hsar      14.59%    passed     71.86%
+WARNING: 1 sequences contain more than 50% gaps/ambiguity
+****  TOTAL     20.59%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+Reading alignment file fastas/chr21_18.fa ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 7 sequences with 4263 columns, 493 distinct patterns
+266 parsimony-informative, 556 singleton sites, 3441 constant sites
+         Gap/Ambiguity  Composition  p-value
+   1  HmelRef   92.05%    passed     93.68%
+   2  HeraRef    0.00%    passed     99.09%
+   3  Hhim       0.26%    passed     98.22%
+   4  Hhsa      22.66%    passed     87.04%
+   5  Htel      12.10%    passed     10.19%
+   6  Hdem      27.21%    passed     59.51%
+   7  Hsar      36.99%    passed     86.72%
+WARNING: 1 sequences contain more than 50% gaps/ambiguity
+****  TOTAL     27.32%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+Reading alignment file fastas/chr21_19.fa ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 7 sequences with 4113 columns, 568 distinct patterns
+205 parsimony-informative, 646 singleton sites, 3262 constant sites
+         Gap/Ambiguity  Composition  p-value
+   1  HmelRef   61.76%    passed     56.80%
+   2  HeraRef    0.00%    passed     27.25%
+   3  Hhim       9.14%    passed     72.67%
+   4  Hhsa      22.25%    passed     66.26%
+   5  Htel      18.60%    passed     76.50%
+   6  Hdem      20.40%    passed     95.64%
+   7  Hsar      23.68%    passed     32.86%
+WARNING: 1 sequences contain more than 50% gaps/ambiguity
+****  TOTAL     22.26%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+Reading alignment file fastas/chr21_2.fa ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 7 sequences with 5001 columns, 388 distinct patterns
+156 parsimony-informative, 535 singleton sites, 4310 constant sites
+         Gap/Ambiguity  Composition  p-value
+   1  HmelRef   42.93%    failed      0.00%
+   2  HeraRef    0.00%    failed      0.02%
+   3  Hhim       1.04%    failed      0.02%
+   4  Hhsa      20.60%    passed     74.61%
+   5  Htel      31.67%    passed     99.52%
+   6  Hdem      35.25%    failed      0.88%
+   7  Hsar      37.55%    failed      0.24%
+****  TOTAL     24.15%  5 sequences failed composition chi2 test (p-value<5%; df=3)
+Reading alignment file fastas/chr21_20.fa ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 7 sequences with 4956 columns, 519 distinct patterns
+226 parsimony-informative, 811 singleton sites, 3919 constant sites
+         Gap/Ambiguity  Composition  p-value
+   1  HmelRef   45.24%    failed      3.46%
+   2  HeraRef    0.00%    passed     66.36%
+   3  Hhim       2.95%    passed     94.26%
+   4  Hhsa       6.80%    passed     88.86%
+   5  Htel       4.66%    passed     33.87%
+   6  Hdem      11.52%    passed     78.21%
+   7  Hsar       9.56%    passed     78.21%
+****  TOTAL     11.53%  1 sequences failed composition chi2 test (p-value<5%; df=3)
+Reading alignment file fastas/chr21_21.fa ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 7 sequences with 4987 columns, 584 distinct patterns
+177 parsimony-informative, 704 singleton sites, 4106 constant sites
+         Gap/Ambiguity  Composition  p-value
+   1  HmelRef   59.59%    failed      0.00%
+   2  HeraRef    0.00%    failed      1.79%
+   3  Hhim       5.98%    passed     22.43%
+   4  Hhsa      43.69%    failed      2.08%
+   5  Htel      22.32%    failed      0.07%
+   6  Hdem      50.21%    failed      0.01%
+   7  Hsar      31.16%    passed     98.94%
+WARNING: 2 sequences contain more than 50% gaps/ambiguity
+****  TOTAL     30.42%  5 sequences failed composition chi2 test (p-value<5%; df=3)
+Reading alignment file fastas/chr21_22.fa ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 7 sequences with 4997 columns, 488 distinct patterns
+124 parsimony-informative, 562 singleton sites, 4311 constant sites
+         Gap/Ambiguity  Composition  p-value
+   1  HmelRef   94.54%    passed     70.12%
+   2  HeraRef    0.00%    passed     28.20%
+   3  Hhim      35.96%    passed     80.84%
+   4  Hhsa      61.38%    passed     31.83%
+   5  Htel      38.04%    passed     15.27%
+   6  Hdem      64.78%    passed     53.55%
+   7  Hsar      83.23%    passed     17.99%
+WARNING: 4 sequences contain more than 50% gaps/ambiguity
+****  TOTAL     53.99%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+Reading alignment file fastas/chr21_23.fa ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 7 sequences with 5001 columns, 606 distinct patterns
+260 parsimony-informative, 869 singleton sites, 3872 constant sites
+         Gap/Ambiguity  Composition  p-value
+   1  HmelRef   42.65%    passed      8.50%
+   2  HeraRef    0.00%    passed     85.04%
+   3  Hhim       4.64%    passed     99.91%
+   4  Hhsa       7.16%    passed     27.21%
+   5  Htel      15.74%    passed     91.75%
+   6  Hdem      12.10%    passed     72.40%
+   7  Hsar      13.70%    passed     67.80%
+****  TOTAL     13.71%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+Reading alignment file fastas/chr21_24.fa ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 7 sequences with 3449 columns, 388 distinct patterns
+109 parsimony-informative, 443 singleton sites, 2897 constant sites
+         Gap/Ambiguity  Composition  p-value
+   1  HmelRef   89.21%    failed      0.00%
+   2  HeraRef    0.00%    passed     55.26%
+   3  Hhim       2.38%    passed     65.52%
+   4  Hhsa      53.73%    failed      1.26%
+   5  Htel      65.93%    passed     80.50%
+   6  Hdem      68.48%    passed     21.45%
+   7  Hsar      73.12%    passed     60.07%
+WARNING: 5 sequences contain more than 50% gaps/ambiguity
+****  TOTAL     50.41%  2 sequences failed composition chi2 test (p-value<5%; df=3)
+Reading alignment file fastas/chr21_25.fa ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 7 sequences with 4969 columns, 629 distinct patterns
+276 parsimony-informative, 916 singleton sites, 3777 constant sites
+         Gap/Ambiguity  Composition  p-value
+   1  HmelRef   64.10%    failed      0.15%
+   2  HeraRef    0.00%    passed     87.90%
+   3  Hhim       2.19%    passed     72.62%
+   4  Hhsa       9.74%    passed     84.55%
+   5  Htel       9.54%    passed     28.80%
+   6  Hdem      23.30%    passed     37.28%
+   7  Hsar      15.98%    passed     99.78%
+WARNING: 1 sequences contain more than 50% gaps/ambiguity
+****  TOTAL     17.84%  1 sequences failed composition chi2 test (p-value<5%; df=3)
+Reading alignment file fastas/chr21_3.fa ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 7 sequences with 3296 columns, 386 distinct patterns
+149 parsimony-informative, 429 singleton sites, 2718 constant sites
+         Gap/Ambiguity  Composition  p-value
+   1  HmelRef   70.45%    failed      0.00%
+   2  HeraRef    0.00%    passed     12.70%
+   3  Hhim       0.94%    passed     14.37%
+   4  Hhsa      30.55%    passed     45.40%
+   5  Htel      10.62%    passed     29.21%
+   6  Hdem      33.07%    passed     48.27%
+   7  Hsar      40.29%    passed     42.02%
+WARNING: 1 sequences contain more than 50% gaps/ambiguity
+****  TOTAL     26.56%  1 sequences failed composition chi2 test (p-value<5%; df=3)
+Reading alignment file fastas/chr21_30.fa ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 7 sequences with 4393 columns, 454 distinct patterns
+184 parsimony-informative, 594 singleton sites, 3615 constant sites
+         Gap/Ambiguity  Composition  p-value
+   1  HmelRef   27.16%    passed     56.27%
+   2  HeraRef    0.00%    passed     79.03%
+   3  Hhim       1.30%    passed     78.80%
+   4  Hhsa       6.31%    passed     95.73%
+   5  Htel       2.44%    passed     94.57%
+   6  Hdem       3.80%    passed     99.59%
+   7  Hsar       8.58%    passed     73.45%
+****  TOTAL      7.08%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+Reading alignment file fastas/chr21_31.fa ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 7 sequences with 5000 columns, 728 distinct patterns
+266 parsimony-informative, 908 singleton sites, 3826 constant sites
+         Gap/Ambiguity  Composition  p-value
+   1  HmelRef   61.24%    failed      0.07%
+   2  HeraRef    0.00%    passed     66.80%
+   3  Hhim       2.02%    passed     89.81%
+   4  Hhsa      20.68%    passed     30.39%
+   5  Htel      28.38%    passed     88.92%
+   6  Hdem      39.50%    passed     62.79%
+   7  Hsar      39.06%    passed     33.44%
+WARNING: 1 sequences contain more than 50% gaps/ambiguity
+****  TOTAL     27.27%  1 sequences failed composition chi2 test (p-value<5%; df=3)
+Reading alignment file fastas/chr21_32.fa ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 7 sequences with 4733 columns, 507 distinct patterns
+165 parsimony-informative, 617 singleton sites, 3951 constant sites
+         Gap/Ambiguity  Composition  p-value
+   1  HmelRef   83.01%    passed     27.58%
+   2  HeraRef    0.00%    passed     89.63%
+   3  Hhim      18.30%    passed     75.85%
+   4  Hhsa      35.69%    passed     84.15%
+   5  Htel      29.09%    passed     61.03%
+   6  Hdem      41.33%    passed     86.08%
+   7  Hsar      49.02%    passed     79.54%
+WARNING: 1 sequences contain more than 50% gaps/ambiguity
+****  TOTAL     36.63%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+Reading alignment file fastas/chr21_34.fa ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 7 sequences with 2474 columns, 291 distinct patterns
+74 parsimony-informative, 344 singleton sites, 2056 constant sites
+         Gap/Ambiguity  Composition  p-value
+   1  HmelRef   78.46%    passed     15.50%
+   2  HeraRef    0.00%    passed     74.61%
+   3  Hhim      10.47%    passed     98.91%
+   4  Hhsa      24.78%    passed     72.30%
+   5  Htel      25.18%    passed     78.30%
+   6  Hdem      29.06%    passed     97.86%
+   7  Hsar      26.15%    passed     99.96%
+WARNING: 1 sequences contain more than 50% gaps/ambiguity
+****  TOTAL     27.73%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+Reading alignment file fastas/chr21_35.fa ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 7 sequences with 4487 columns, 394 distinct patterns
+130 parsimony-informative, 602 singleton sites, 3755 constant sites
+         Gap/Ambiguity  Composition  p-value
+   1  HmelRef   42.70%    failed      0.61%
+   2  HeraRef    0.00%    passed     85.22%
+   3  Hhim       0.53%    passed     96.91%
+   4  Hhsa       1.67%    passed     93.08%
+   5  Htel       3.32%    passed     96.51%
+   6  Hdem       2.32%    passed     94.53%
+   7  Hsar       1.83%    passed     94.89%
+****  TOTAL      7.48%  1 sequences failed composition chi2 test (p-value<5%; df=3)
+Reading alignment file fastas/chr21_36.fa ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 7 sequences with 4463 columns, 679 distinct patterns
+230 parsimony-informative, 961 singleton sites, 3272 constant sites
+         Gap/Ambiguity  Composition  p-value
+   1  HmelRef   44.41%    failed      0.08%
+   2  HeraRef    0.00%    passed     95.81%
+   3  Hhim       4.44%    passed     93.24%
+   4  Hhsa       7.64%    passed     81.71%
+   5  Htel      10.78%    passed     59.11%
+   6  Hdem      13.76%    passed     91.25%
+   7  Hsar      14.88%    passed     84.90%
+****  TOTAL     13.70%  1 sequences failed composition chi2 test (p-value<5%; df=3)
+Reading alignment file fastas/chr21_37.fa ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 7 sequences with 4893 columns, 518 distinct patterns
+208 parsimony-informative, 775 singleton sites, 3910 constant sites
+         Gap/Ambiguity  Composition  p-value
+   1  HmelRef   34.70%    passed     40.25%
+   2  HeraRef    0.00%    passed     70.47%
+   3  Hhim       0.76%    passed     53.03%
+   4  Hhsa       7.68%    passed     92.64%
+   5  Htel      13.06%    passed     87.53%
+   6  Hdem       8.81%    passed     99.47%
+   7  Hsar      14.82%    passed     46.27%
+****  TOTAL     11.40%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+Reading alignment file fastas/chr21_38.fa ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 7 sequences with 4038 columns, 546 distinct patterns
+232 parsimony-informative, 766 singleton sites, 3040 constant sites
+         Gap/Ambiguity  Composition  p-value
+   1  HmelRef   44.16%    passed     78.85%
+   2  HeraRef    0.00%    passed     91.90%
+   3  Hhim       1.91%    passed     84.97%
+   4  Hhsa       9.44%    passed     88.26%
+   5  Htel      12.13%    passed     91.63%
+   6  Hdem      10.87%    passed     94.61%
+   7  Hsar      15.16%    passed     79.30%
+****  TOTAL     13.38%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+Reading alignment file fastas/chr21_39.fa ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 7 sequences with 3839 columns, 618 distinct patterns
+135 parsimony-informative, 603 singleton sites, 3101 constant sites
+         Gap/Ambiguity  Composition  p-value
+   1  HmelRef   75.57%    passed     17.27%
+   2  HeraRef    0.00%    passed     88.03%
+   3  Hhim      33.86%    passed     95.84%
+   4  Hhsa      30.89%    passed     27.75%
+   5  Htel      39.18%    passed     55.32%
+   6  Hdem      47.49%    passed     90.51%
+   7  Hsar      49.73%    passed     94.53%
+WARNING: 1 sequences contain more than 50% gaps/ambiguity
+****  TOTAL     39.53%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+Reading alignment file fastas/chr21_4.fa ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 7 sequences with 2468 columns, 153 distinct patterns
+19 parsimony-informative, 165 singleton sites, 2284 constant sites
+         Gap/Ambiguity  Composition  p-value
+   1  HmelRef   97.93%    passed     72.67%
+   2  HeraRef    0.00%    passed     95.15%
+   3  Hhim       0.49%    passed     98.78%
+   4  Hhsa      66.82%    passed     49.86%
+   5  Htel      82.94%    failed      4.80%
+   6  Hdem      89.18%    passed     67.73%
+   7  Hsar      97.41%    passed     23.23%
+WARNING: 5 sequences contain more than 50% gaps/ambiguity
+****  TOTAL     62.11%  1 sequences failed composition chi2 test (p-value<5%; df=3)
+Reading alignment file fastas/chr21_41.fa ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 7 sequences with 3749 columns, 446 distinct patterns
+94 parsimony-informative, 675 singleton sites, 2980 constant sites
+         Gap/Ambiguity  Composition  p-value
+   1  HmelRef   73.75%    passed     16.79%
+   2  HeraRef    0.00%    passed     47.26%
+   3  Hhim       6.21%    passed     95.76%
+   4  Hhsa       6.40%    passed     75.97%
+   5  Htel      21.63%    passed     83.52%
+   6  Hdem      55.32%    passed      8.71%
+   7  Hsar      85.01%    passed     59.76%
+WARNING: 3 sequences contain more than 50% gaps/ambiguity
+****  TOTAL     35.48%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+Reading alignment file fastas/chr21_42.fa ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 7 sequences with 5000 columns, 397 distinct patterns
+134 parsimony-informative, 615 singleton sites, 4251 constant sites
+         Gap/Ambiguity  Composition  p-value
+   1  HmelRef   14.66%    passed     45.59%
+   2  HeraRef    0.00%    passed     98.51%
+   3  Hhim      35.20%    passed     35.99%
+   4  Hhsa       2.56%    passed     98.34%
+   5  Htel       5.96%    passed     99.67%
+   6  Hdem       6.42%    passed     96.51%
+   7  Hsar       9.64%    passed     99.52%
+****  TOTAL     10.63%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+Reading alignment file fastas/chr21_43.fa ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 7 sequences with 2993 columns, 480 distinct patterns
+103 parsimony-informative, 517 singleton sites, 2373 constant sites
+         Gap/Ambiguity  Composition  p-value
+   1  HmelRef   58.84%    passed     76.00%
+   2  HeraRef    0.00%    passed     75.52%
+   3  Hhim      12.56%    passed     71.25%
+   4  Hhsa      37.82%    passed     71.46%
+   5  Htel      16.44%    passed     93.89%
+   6  Hdem      20.38%    passed     82.03%
+   7  Hsar      30.14%    passed     66.76%
+WARNING: 1 sequences contain more than 50% gaps/ambiguity
+****  TOTAL     25.17%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+Reading alignment file fastas/chr21_44.fa ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 7 sequences with 4678 columns, 547 distinct patterns
+190 parsimony-informative, 751 singleton sites, 3737 constant sites
+         Gap/Ambiguity  Composition  p-value
+   1  HmelRef   91.88%    passed     14.67%
+   2  HeraRef    0.00%    passed     95.74%
+   3  Hhim      17.49%    passed     91.49%
+   4  Hhsa      13.62%    passed     86.59%
+   5  Htel       6.71%    passed     96.53%
+   6  Hdem      16.22%    passed     64.16%
+   7  Hsar      20.16%    passed     89.98%
+WARNING: 1 sequences contain more than 50% gaps/ambiguity
+****  TOTAL     23.73%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+Reading alignment file fastas/chr21_48.fa ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 7 sequences with 4758 columns, 801 distinct patterns
+201 parsimony-informative, 983 singleton sites, 3574 constant sites
+         Gap/Ambiguity  Composition  p-value
+   1  HmelRef   87.60%    passed     26.48%
+   2  HeraRef    0.00%    passed     99.33%
+   3  Hhim      10.76%    passed     87.13%
+   4  Hhsa      35.18%    passed     52.52%
+   5  Htel      10.15%    passed     87.47%
+   6  Hdem      26.78%    passed     36.58%
+   7  Hsar      31.74%    passed     92.42%
+WARNING: 1 sequences contain more than 50% gaps/ambiguity
+****  TOTAL     28.89%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+Reading alignment file fastas/chr21_5.fa ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 7 sequences with 4768 columns, 476 distinct patterns
+247 parsimony-informative, 659 singleton sites, 3862 constant sites
+         Gap/Ambiguity  Composition  p-value
+   1  HmelRef   20.78%    passed     96.52%
+   2  HeraRef    0.00%    passed     92.62%
+   3  Hhim       0.36%    passed     93.66%
+   4  Hhsa       3.71%    passed     94.28%
+   5  Htel       9.92%    passed     78.74%
+   6  Hdem      11.05%    passed     88.45%
+   7  Hsar      27.06%    passed     78.59%
+****  TOTAL     10.41%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+Reading alignment file fastas/chr21_57.fa ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 7 sequences with 4684 columns, 527 distinct patterns
+168 parsimony-informative, 738 singleton sites, 3778 constant sites
+         Gap/Ambiguity  Composition  p-value
+   1  HmelRef   99.51%    passed     68.28%
+   2  HeraRef    0.00%    passed     25.10%
+   3  Hhim      20.05%    passed     91.37%
+   4  Hhsa      26.75%    passed     67.70%
+   5  Htel      14.75%    passed     80.01%
+   6  Hdem      22.10%    passed     92.44%
+   7  Hsar      21.22%    passed     77.27%
+WARNING: 1 sequences contain more than 50% gaps/ambiguity
+****  TOTAL     29.20%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+Reading alignment file fastas/chr21_58.fa ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 7 sequences with 4816 columns, 629 distinct patterns
+175 parsimony-informative, 960 singleton sites, 3681 constant sites
+         Gap/Ambiguity  Composition  p-value
+   1  HmelRef   90.07%    passed     18.00%
+   2  HeraRef    0.00%    passed     99.58%
+   3  Hhim       6.67%    passed     72.35%
+   4  Hhsa       8.39%    passed     98.35%
+   5  Htel      17.30%    passed     95.46%
+   6  Hdem      18.77%    passed     94.30%
+   7  Hsar      30.56%    passed     92.05%
+WARNING: 1 sequences contain more than 50% gaps/ambiguity
+****  TOTAL     24.54%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+Reading alignment file fastas/chr21_59.fa ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 7 sequences with 3975 columns, 606 distinct patterns
+171 parsimony-informative, 698 singleton sites, 3106 constant sites
+         Gap/Ambiguity  Composition  p-value
+   1  HmelRef   84.38%    passed     47.81%
+   2  HeraRef    0.00%    passed     92.62%
+   3  Hhim       3.09%    passed     85.94%
+   4  Hhsa      22.94%    passed     76.74%
+   5  Htel      23.47%    passed     29.20%
+   6  Hdem      14.59%    passed     99.18%
+   7  Hsar      42.57%    passed      5.42%
+WARNING: 1 sequences contain more than 50% gaps/ambiguity
+****  TOTAL     27.29%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+Reading alignment file fastas/chr21_6.fa ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 7 sequences with 4527 columns, 476 distinct patterns
+182 parsimony-informative, 488 singleton sites, 3857 constant sites
+         Gap/Ambiguity  Composition  p-value
+   1  HmelRef   82.57%    failed      0.08%
+   2  HeraRef    0.00%    failed      1.91%
+   3  Hhim       0.22%    failed      0.65%
+   4  Hhsa      37.82%    failed      0.50%
+   5  Htel      26.71%    passed     69.65%
+   6  Hdem      49.39%    failed      3.80%
+   7  Hsar      61.10%    passed     84.18%
+WARNING: 2 sequences contain more than 50% gaps/ambiguity
+****  TOTAL     36.83%  5 sequences failed composition chi2 test (p-value<5%; df=3)
+Reading alignment file fastas/chr21_60.fa ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 7 sequences with 4426 columns, 689 distinct patterns
+174 parsimony-informative, 945 singleton sites, 3307 constant sites
+         Gap/Ambiguity  Composition  p-value
+   1  HmelRef   89.72%    failed      0.05%
+   2  HeraRef    0.00%    passed     88.27%
+   3  Hhim       9.90%    passed     84.64%
+   4  Hhsa       7.64%    passed     78.06%
+   5  Htel      16.06%    passed     83.37%
+   6  Hdem      15.36%    passed     42.36%
+   7  Hsar      12.54%    passed     93.07%
+WARNING: 1 sequences contain more than 50% gaps/ambiguity
+****  TOTAL     21.60%  1 sequences failed composition chi2 test (p-value<5%; df=3)
+Reading alignment file fastas/chr21_61.fa ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 7 sequences with 2727 columns, 339 distinct patterns
+87 parsimony-informative, 396 singleton sites, 2244 constant sites
+         Gap/Ambiguity  Composition  p-value
+   1  HmelRef   97.84%    passed     18.96%
+   2  HeraRef    0.00%    passed     34.77%
+   3  Hhim       5.21%    passed     48.56%
+   4  Hhsa      44.70%    passed     39.49%
+   5  Htel      28.35%    passed     64.29%
+   6  Hdem      41.18%    passed     16.96%
+   7  Hsar      40.08%    passed     91.40%
+WARNING: 1 sequences contain more than 50% gaps/ambiguity
+****  TOTAL     36.76%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+Reading alignment file fastas/chr21_65.fa ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 7 sequences with 4997 columns, 594 distinct patterns
+199 parsimony-informative, 915 singleton sites, 3882 constant sites
+         Gap/Ambiguity  Composition  p-value
+   1  HmelRef   99.98%    passed     54.77%
+   2  HeraRef    0.00%    passed     90.01%
+   3  Hhim       9.21%    passed     80.00%
+   4  Hhsa      19.77%    passed     86.29%
+   5  Htel      12.91%    passed     85.51%
+   6  Hdem      17.55%    passed     96.96%
+   7  Hsar      24.85%    passed     31.31%
+WARNING: 1 sequences contain more than 50% gaps/ambiguity
+****  TOTAL     26.32%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+Reading alignment file fastas/chr21_66.fa ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 7 sequences with 4081 columns, 568 distinct patterns
+135 parsimony-informative, 709 singleton sites, 3237 constant sites
+         Gap/Ambiguity  Composition  p-value
+   1  HmelRef   94.17%    passed      9.76%
+   2  HeraRef    0.00%    passed     90.31%
+   3  Hhim      15.93%    passed     97.86%
+   4  Hhsa      22.08%    passed     97.08%
+   5  Htel      31.51%    passed     69.24%
+   6  Hdem      29.67%    passed     95.42%
+   7  Hsar      41.53%    passed     92.69%
+WARNING: 1 sequences contain more than 50% gaps/ambiguity
+****  TOTAL     33.56%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+Reading alignment file fastas/chr21_67.fa ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 7 sequences with 5000 columns, 632 distinct patterns
+179 parsimony-informative, 849 singleton sites, 3972 constant sites
+         Gap/Ambiguity  Composition  p-value
+   1  HmelRef   88.92%    passed     89.61%
+   2  HeraRef    0.00%    passed     14.39%
+   3  Hhim      31.42%    passed     77.25%
+   4  Hhsa      33.86%    passed     91.65%
+   5  Htel      16.96%    passed     95.49%
+   6  Hdem      23.28%    passed     84.02%
+   7  Hsar      26.14%    passed     90.01%
+WARNING: 1 sequences contain more than 50% gaps/ambiguity
+****  TOTAL     31.51%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+Reading alignment file fastas/chr21_68.fa ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 7 sequences with 4503 columns, 653 distinct patterns
+165 parsimony-informative, 918 singleton sites, 3420 constant sites
+         Gap/Ambiguity  Composition  p-value
+   1  HmelRef   96.09%    passed     23.00%
+   2  HeraRef    0.00%    passed     96.00%
+   3  Hhim      22.56%    passed     62.58%
+   4  Hhsa      25.61%    passed     97.86%
+   5  Htel      20.28%    passed     82.82%
+   6  Hdem      17.68%    passed     88.18%
+   7  Hsar      32.47%    passed     93.89%
+WARNING: 1 sequences contain more than 50% gaps/ambiguity
+****  TOTAL     30.67%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+Reading alignment file fastas/chr21_69.fa ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 7 sequences with 4188 columns, 576 distinct patterns
+175 parsimony-informative, 853 singleton sites, 3160 constant sites
+         Gap/Ambiguity  Composition  p-value
+   1  HmelRef   71.37%    passed     80.28%
+   2  HeraRef    0.00%    passed     97.25%
+   3  Hhim       5.23%    passed     57.55%
+   4  Hhsa      16.57%    passed     94.97%
+   5  Htel      18.48%    passed     93.25%
+   6  Hdem      21.08%    passed     97.66%
+   7  Hsar      19.44%    passed     65.83%
+WARNING: 1 sequences contain more than 50% gaps/ambiguity
+****  TOTAL     21.74%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+Reading alignment file fastas/chr21_7.fa ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 7 sequences with 2375 columns, 273 distinct patterns
+91 parsimony-informative, 267 singleton sites, 2017 constant sites
+         Gap/Ambiguity  Composition  p-value
+   1  HmelRef   50.23%    passed     82.49%
+   2  HeraRef    0.00%    passed     79.88%
+   3  Hhim       0.55%    passed     97.12%
+   4  Hhsa      16.63%    passed     32.09%
+   5  Htel      41.05%    passed     55.59%
+   6  Hdem      36.67%    passed     82.78%
+   7  Hsar      37.56%    passed     68.17%
+WARNING: 1 sequences contain more than 50% gaps/ambiguity
+****  TOTAL     26.10%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+Reading alignment file fastas/chr21_70.fa ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 7 sequences with 4723 columns, 482 distinct patterns
+166 parsimony-informative, 844 singleton sites, 3713 constant sites
+         Gap/Ambiguity  Composition  p-value
+   1  HmelRef   57.42%    passed     46.42%
+   2  HeraRef    0.00%    passed     30.98%
+   3  Hhim      11.92%    passed     46.63%
+   4  Hhsa      31.61%    passed     74.41%
+   5  Htel      32.92%    passed     88.17%
+   6  Hdem      31.84%    passed     85.46%
+   7  Hsar      32.35%    passed     68.18%
+WARNING: 1 sequences contain more than 50% gaps/ambiguity
+****  TOTAL     28.30%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+Reading alignment file fastas/chr21_72.fa ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 7 sequences with 4854 columns, 749 distinct patterns
+203 parsimony-informative, 1019 singleton sites, 3632 constant sites
+         Gap/Ambiguity  Composition  p-value
+   1  HmelRef   82.47%    passed     11.19%
+   2  HeraRef    0.00%    passed     96.77%
+   3  Hhim      19.57%    passed     85.48%
+   4  Hhsa      18.52%    passed     86.94%
+   5  Htel       5.85%    passed     98.09%
+   6  Hdem      19.20%    passed     47.38%
+   7  Hsar      34.26%    passed     71.08%
+WARNING: 1 sequences contain more than 50% gaps/ambiguity
+****  TOTAL     25.70%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+Reading alignment file fastas/chr21_73.fa ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 7 sequences with 4950 columns, 662 distinct patterns
+191 parsimony-informative, 935 singleton sites, 3824 constant sites
+         Gap/Ambiguity  Composition  p-value
+   1  HmelRef   98.32%    passed      8.55%
+   2  HeraRef    0.00%    passed     96.06%
+   3  Hhim      13.62%    passed     85.72%
+   4  Hhsa      21.82%    passed     87.93%
+   5  Htel      17.52%    passed     89.96%
+   6  Hdem      33.72%    passed     54.74%
+   7  Hsar      28.85%    passed     99.58%
+WARNING: 1 sequences contain more than 50% gaps/ambiguity
+****  TOTAL     30.55%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+Reading alignment file fastas/chr21_74.fa ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 7 sequences with 3834 columns, 470 distinct patterns
+83 parsimony-informative, 578 singleton sites, 3173 constant sites
+         Gap/Ambiguity  Composition  p-value
+   1  HmelRef   99.03%    passed     43.25%
+   2  HeraRef    0.00%    passed     56.59%
+   3  Hhim      47.05%    passed     91.61%
+   4  Hhsa      49.01%    passed     42.95%
+   5  Htel      39.80%    passed     38.59%
+   6  Hdem      46.01%    passed     35.43%
+   7  Hsar      58.06%    passed     96.49%
+WARNING: 2 sequences contain more than 50% gaps/ambiguity
+****  TOTAL     48.42%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+Reading alignment file fastas/chr21_75.fa ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 7 sequences with 3359 columns, 443 distinct patterns
+75 parsimony-informative, 385 singleton sites, 2899 constant sites
+         Gap/Ambiguity  Composition  p-value
+   1  HmelRef   81.90%    failed      1.52%
+   2  HeraRef    0.00%    passed     58.57%
+   3  Hhim      51.95%    passed     62.76%
+   4  Hhsa      60.58%    passed     56.78%
+   5  Htel      73.89%    passed     83.60%
+   6  Hdem      54.75%    passed     58.39%
+   7  Hsar      75.38%    passed     83.73%
+WARNING: 6 sequences contain more than 50% gaps/ambiguity
+****  TOTAL     56.92%  1 sequences failed composition chi2 test (p-value<5%; df=3)
+Reading alignment file fastas/chr21_77.fa ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 7 sequences with 3859 columns, 473 distinct patterns
+84 parsimony-informative, 467 singleton sites, 3308 constant sites
+         Gap/Ambiguity  Composition  p-value
+   1  HmelRef   85.31%    passed     20.37%
+   2  HeraRef    0.00%    failed      0.04%
+   3  Hhim      56.57%    passed     18.08%
+   4  Hhsa      50.25%    passed     19.29%
+   5  Htel      45.37%    passed     79.52%
+   6  Hdem      45.89%    passed     86.52%
+   7  Hsar      59.60%    passed     15.53%
+WARNING: 4 sequences contain more than 50% gaps/ambiguity
+****  TOTAL     49.00%  1 sequences failed composition chi2 test (p-value<5%; df=3)
+Reading alignment file fastas/chr21_78.fa ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 7 sequences with 4838 columns, 724 distinct patterns
+173 parsimony-informative, 901 singleton sites, 3764 constant sites
+         Gap/Ambiguity  Composition  p-value
+   1  HmelRef   73.42%    passed      6.17%
+   2  HeraRef    0.00%    passed     45.85%
+   3  Hhim       8.78%    passed     90.41%
+   4  Hhsa      13.08%    passed     57.42%
+   5  Htel      17.96%    passed     75.00%
+   6  Hdem      37.10%    passed     86.62%
+   7  Hsar      46.16%    passed     66.63%
+WARNING: 1 sequences contain more than 50% gaps/ambiguity
+****  TOTAL     28.07%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+Reading alignment file fastas/chr21_79.fa ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 7 sequences with 4755 columns, 642 distinct patterns
+143 parsimony-informative, 923 singleton sites, 3689 constant sites
+         Gap/Ambiguity  Composition  p-value
+   1  HmelRef   65.09%    passed     11.85%
+   2  HeraRef    0.00%    failed      2.46%
+   3  Hhim      12.07%    passed     89.60%
+   4  Hhsa      31.88%    passed     26.52%
+   5  Htel      13.94%    passed     53.49%
+   6  Hdem      21.05%    passed     79.81%
+   7  Hsar      23.49%    passed     61.28%
+WARNING: 1 sequences contain more than 50% gaps/ambiguity
+****  TOTAL     23.93%  1 sequences failed composition chi2 test (p-value<5%; df=3)
+Reading alignment file fastas/chr21_8.fa ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 7 sequences with 3408 columns, 270 distinct patterns
+52 parsimony-informative, 343 singleton sites, 3013 constant sites
+         Gap/Ambiguity  Composition  p-value
+   1  HmelRef   93.10%    passed     72.82%
+   2  HeraRef    0.00%    passed     82.49%
+   3  Hhim      31.95%    passed     53.13%
+   4  Hhsa      51.06%    passed     73.47%
+   5  Htel      67.63%    passed     54.41%
+   6  Hdem      91.93%    passed     66.15%
+   7  Hsar      92.96%    passed     81.35%
+WARNING: 5 sequences contain more than 50% gaps/ambiguity
+****  TOTAL     61.23%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+Reading alignment file fastas/chr21_80.fa ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 7 sequences with 4885 columns, 649 distinct patterns
+203 parsimony-informative, 979 singleton sites, 3703 constant sites
+         Gap/Ambiguity  Composition  p-value
+   1  HmelRef   55.05%    passed     90.87%
+   2  HeraRef    0.00%    passed     94.64%
+   3  Hhim       4.69%    passed     97.47%
+   4  Hhsa       6.47%    passed     90.24%
+   5  Htel      11.75%    passed     73.99%
+   6  Hdem       9.91%    passed     99.51%
+   7  Hsar      16.11%    passed     75.12%
+WARNING: 1 sequences contain more than 50% gaps/ambiguity
+****  TOTAL     14.85%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+Reading alignment file fastas/chr21_81.fa ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 7 sequences with 3997 columns, 685 distinct patterns
+252 parsimony-informative, 756 singleton sites, 2989 constant sites
+         Gap/Ambiguity  Composition  p-value
+   1  HmelRef   55.14%    failed      3.82%
+   2  HeraRef    0.00%    passed     91.19%
+   3  Hhim       4.30%    passed     93.42%
+   4  Hhsa       8.41%    passed     76.02%
+   5  Htel      26.29%    passed     69.81%
+   6  Hdem      14.79%    passed     70.91%
+   7  Hsar      21.42%    passed     71.84%
+WARNING: 1 sequences contain more than 50% gaps/ambiguity
+****  TOTAL     18.62%  1 sequences failed composition chi2 test (p-value<5%; df=3)
+Reading alignment file fastas/chr21_82.fa ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 7 sequences with 4702 columns, 654 distinct patterns
+238 parsimony-informative, 827 singleton sites, 3637 constant sites
+         Gap/Ambiguity  Composition  p-value
+   1  HmelRef   53.74%    passed     29.05%
+   2  HeraRef    0.00%    passed     98.81%
+   3  Hhim       3.89%    passed     94.42%
+   4  Hhsa      16.55%    passed     96.62%
+   5  Htel      10.87%    passed     80.53%
+   6  Hdem       6.91%    passed     99.61%
+   7  Hsar      11.80%    passed     98.32%
+WARNING: 1 sequences contain more than 50% gaps/ambiguity
+****  TOTAL     14.82%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+Reading alignment file fastas/chr21_83.fa ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 7 sequences with 4820 columns, 688 distinct patterns
+188 parsimony-informative, 991 singleton sites, 3641 constant sites
+         Gap/Ambiguity  Composition  p-value
+   1  HmelRef   71.14%    passed      6.10%
+   2  HeraRef    0.00%    passed     83.97%
+   3  Hhim       9.77%    passed     90.89%
+   4  Hhsa       9.61%    passed     95.41%
+   5  Htel      16.06%    passed     95.97%
+   6  Hdem      16.64%    passed     66.37%
+   7  Hsar      18.96%    passed     37.27%
+WARNING: 1 sequences contain more than 50% gaps/ambiguity
+****  TOTAL     20.31%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+Reading alignment file fastas/chr21_84.fa ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 7 sequences with 3746 columns, 497 distinct patterns
+100 parsimony-informative, 632 singleton sites, 3014 constant sites
+         Gap/Ambiguity  Composition  p-value
+   1  HmelRef   88.73%    passed     96.23%
+   2  HeraRef    0.00%    passed     80.49%
+   3  Hhim      16.71%    passed     94.94%
+   4  Hhsa      26.86%    passed     79.28%
+   5  Htel      18.63%    passed     82.45%
+   6  Hdem      41.70%    passed     91.63%
+   7  Hsar      42.29%    passed     93.39%
+WARNING: 1 sequences contain more than 50% gaps/ambiguity
+****  TOTAL     33.56%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+Reading alignment file fastas/chr21_85.fa ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 7 sequences with 3909 columns, 519 distinct patterns
+147 parsimony-informative, 787 singleton sites, 2975 constant sites
+         Gap/Ambiguity  Composition  p-value
+   1  HmelRef   86.26%    passed      5.41%
+   2  HeraRef    0.00%    passed     73.79%
+   3  Hhim       3.99%    passed     95.18%
+   4  Hhsa      18.01%    passed     97.43%
+   5  Htel      10.21%    passed     98.63%
+   6  Hdem      17.98%    passed     92.94%
+   7  Hsar      14.50%    passed     45.86%
+WARNING: 1 sequences contain more than 50% gaps/ambiguity
+****  TOTAL     21.57%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+Reading alignment file fastas/chr21_86.fa ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 7 sequences with 4073 columns, 544 distinct patterns
+138 parsimony-informative, 756 singleton sites, 3179 constant sites
+         Gap/Ambiguity  Composition  p-value
+   1  HmelRef   90.77%    passed     47.12%
+   2  HeraRef    0.00%    passed     78.99%
+   3  Hhim      21.38%    passed     96.07%
+   4  Hhsa      17.78%    passed     96.20%
+   5  Htel      18.66%    passed     97.38%
+   6  Hdem      27.11%    passed     92.69%
+   7  Hsar      31.13%    passed     79.73%
+WARNING: 1 sequences contain more than 50% gaps/ambiguity
+****  TOTAL     29.55%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+Reading alignment file fastas/chr21_87.fa ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 7 sequences with 3764 columns, 556 distinct patterns
+133 parsimony-informative, 730 singleton sites, 2901 constant sites
+         Gap/Ambiguity  Composition  p-value
+   1  HmelRef   66.50%    failed      1.33%
+   2  HeraRef    0.00%    passed     81.07%
+   3  Hhim       4.91%    passed     96.29%
+   4  Hhsa      16.55%    passed     47.10%
+   5  Htel      13.39%    passed     92.56%
+   6  Hdem       9.01%    passed     63.62%
+   7  Hsar       9.56%    passed     88.11%
+WARNING: 1 sequences contain more than 50% gaps/ambiguity
+****  TOTAL     17.13%  1 sequences failed composition chi2 test (p-value<5%; df=3)
+Reading alignment file fastas/chr21_88.fa ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 7 sequences with 4180 columns, 462 distinct patterns
+118 parsimony-informative, 686 singleton sites, 3376 constant sites
+         Gap/Ambiguity  Composition  p-value
+   1  HmelRef   67.85%    failed      0.98%
+   2  HeraRef    0.00%    passed     95.83%
+   3  Hhim       6.08%    passed     92.13%
+   4  Hhsa       2.68%    passed     93.25%
+   5  Htel       2.25%    passed     68.29%
+   6  Hdem       5.22%    passed     99.32%
+   7  Hsar      18.80%    passed     54.47%
+WARNING: 1 sequences contain more than 50% gaps/ambiguity
+****  TOTAL     14.70%  1 sequences failed composition chi2 test (p-value<5%; df=3)
+Reading alignment file fastas/chr21_89.fa ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 7 sequences with 2977 columns, 350 distinct patterns
+80 parsimony-informative, 336 singleton sites, 2561 constant sites
+         Gap/Ambiguity  Composition  p-value
+   1  HmelRef   91.77%    passed     20.53%
+   2  HeraRef    0.00%    failed      0.09%
+   3  Hhim       2.52%    failed      0.07%
+   4  Hhsa      51.29%    failed      0.52%
+   5  Htel      52.64%    failed      0.54%
+   6  Hdem      73.90%    failed      3.48%
+   7  Hsar      65.27%    failed      3.95%
+WARNING: 5 sequences contain more than 50% gaps/ambiguity
+****  TOTAL     48.20%  6 sequences failed composition chi2 test (p-value<5%; df=3)
+Reading alignment file fastas/chr21_90.fa ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 7 sequences with 5001 columns, 257 distinct patterns
+125 parsimony-informative, 457 singleton sites, 4419 constant sites
+         Gap/Ambiguity  Composition  p-value
+   1  HmelRef    8.86%    passed     97.42%
+   2  HeraRef    0.00%    passed     99.96%
+   3  Hhim       1.22%    passed     96.46%
+   4  Hhsa       0.64%    passed     98.93%
+   5  Htel       2.06%    passed     93.64%
+   6  Hdem       9.08%    passed     79.33%
+   7  Hsar       3.28%    passed     86.42%
+****  TOTAL      3.59%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+Reading alignment file fastas/chr21_91.fa ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 7 sequences with 5001 columns, 231 distinct patterns
+155 parsimony-informative, 552 singleton sites, 4294 constant sites
+         Gap/Ambiguity  Composition  p-value
+   1  HmelRef    1.98%    passed     91.41%
+   2  HeraRef    0.00%    passed     99.89%
+   3  Hhim       0.24%    passed     98.69%
+   4  Hhsa       0.66%    passed     98.31%
+   5  Htel       0.78%    passed     99.21%
+   6  Hdem       0.72%    passed     94.04%
+   7  Hsar       1.32%    passed     99.99%
+****  TOTAL      0.81%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+Reading alignment file fastas/chr21_92.fa ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 7 sequences with 5001 columns, 327 distinct patterns
+135 parsimony-informative, 573 singleton sites, 4293 constant sites
+         Gap/Ambiguity  Composition  p-value
+   1  HmelRef    6.40%    passed     61.42%
+   2  HeraRef    0.00%    passed     98.89%
+   3  Hhim       2.24%    passed     94.56%
+   4  Hhsa       1.98%    passed     99.33%
+   5  Htel       0.70%    passed     98.94%
+   6  Hdem       1.00%    passed     95.64%
+   7  Hsar       1.36%    passed     96.27%
+****  TOTAL      1.95%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+Reading alignment file fastas/chr21_93.fa ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 7 sequences with 3277 columns, 521 distinct patterns
+140 parsimony-informative, 590 singleton sites, 2547 constant sites
+         Gap/Ambiguity  Composition  p-value
+   1  HmelRef   59.08%    passed     75.39%
+   2  HeraRef    0.00%    passed     62.41%
+   3  Hhim       1.74%    passed     80.97%
+   4  Hhsa       6.93%    passed     96.04%
+   5  Htel      28.17%    passed     91.73%
+   6  Hdem      46.05%    passed     79.91%
+   7  Hsar      43.85%    passed     91.67%
+WARNING: 1 sequences contain more than 50% gaps/ambiguity
+****  TOTAL     26.54%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+Reading alignment file fastas/chr21_94.fa ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 7 sequences with 4729 columns, 498 distinct patterns
+188 parsimony-informative, 778 singleton sites, 3763 constant sites
+         Gap/Ambiguity  Composition  p-value
+   1  HmelRef   84.86%    passed     64.72%
+   2  HeraRef    0.00%    passed     10.96%
+   3  Hhim       3.15%    passed     22.07%
+   4  Hhsa      11.38%    passed     93.59%
+   5  Htel      30.28%    failed      4.09%
+   6  Hdem      27.07%    passed     35.58%
+   7  Hsar      33.03%    passed     68.23%
+WARNING: 1 sequences contain more than 50% gaps/ambiguity
+****  TOTAL     27.11%  1 sequences failed composition chi2 test (p-value<5%; df=3)
+Reading alignment file fastas/chr21_95.fa ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 7 sequences with 3947 columns, 530 distinct patterns
+168 parsimony-informative, 647 singleton sites, 3132 constant sites
+         Gap/Ambiguity  Composition  p-value
+   1  HmelRef   89.36%    passed     81.11%
+   2  HeraRef    0.00%    passed      8.84%
+   3  Hhim      18.19%    passed     71.35%
+   4  Hhsa      29.67%    passed     94.24%
+   5  Htel      45.20%    passed     63.24%
+   6  Hdem      39.19%    passed     68.12%
+   7  Hsar      44.11%    passed     57.30%
+WARNING: 1 sequences contain more than 50% gaps/ambiguity
+****  TOTAL     37.96%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+Reading alignment file fastas/chr21_96.fa ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 7 sequences with 766 columns, 121 distinct patterns
+13 parsimony-informative, 118 singleton sites, 635 constant sites
+         Gap/Ambiguity  Composition  p-value
+   1  HmelRef   95.82%    passed     43.69%
+   2  HeraRef    0.00%    passed     37.48%
+   3  Hhim      26.50%    passed     74.18%
+   4  Hhsa      77.55%    passed     97.93%
+   5  Htel      65.14%    passed     84.92%
+   6  Hdem      65.67%    passed     94.55%
+   7  Hsar      90.60%    passed      8.91%
+WARNING: 5 sequences contain more than 50% gaps/ambiguity
+****  TOTAL     60.18%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+Reading alignment file fastas/chr21_98.fa ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 7 sequences with 4771 columns, 708 distinct patterns
+204 parsimony-informative, 800 singleton sites, 3767 constant sites
+         Gap/Ambiguity  Composition  p-value
+   1  HmelRef   84.55%    passed     52.24%
+   2  HeraRef    0.00%    passed     21.96%
+   3  Hhim       8.51%    passed     21.69%
+   4  Hhsa      30.71%    passed     22.28%
+   5  Htel      30.77%    passed     96.76%
+   6  Hdem      43.95%    passed     80.92%
+   7  Hsar      36.20%    passed     15.11%
+WARNING: 1 sequences contain more than 50% gaps/ambiguity
+****  TOTAL     33.53%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+Reading alignment file fastas/chr21_99.fa ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 7 sequences with 3983 columns, 320 distinct patterns
+81 parsimony-informative, 370 singleton sites, 3532 constant sites
+         Gap/Ambiguity  Composition  p-value
+   1  HmelRef   91.51%    passed     36.51%
+   2  HeraRef    0.00%    failed      0.55%
+   3  Hhim      60.86%    passed     11.75%
+   4  Hhsa      57.49%    passed     74.91%
+   5  Htel      52.85%    passed     64.12%
+   6  Hdem      61.46%    passed     37.99%
+   7  Hsar      57.75%    passed     42.69%
+WARNING: 6 sequences contain more than 50% gaps/ambiguity
+****  TOTAL     54.56%  1 sequences failed composition chi2 test (p-value<5%; df=3)
+Subset	Type	Seqs	Sites	Infor	Invar	Model	Name
+1		7	2383	109	2010		chr21_1.fa
+2		7	4838	278	3935		chr21_10.fa
+3		7	4761	210	3803		chr21_101.fa
+4		7	4501	248	3388		chr21_102.fa
+5		7	4691	219	3579		chr21_103.fa
+6		7	4997	230	3991		chr21_104.fa
+7		7	5000	210	3972		chr21_105.fa
+8		7	4552	160	3677		chr21_106.fa
+9		7	4760	261	3494		chr21_107.fa
+10		7	4523	242	3504		chr21_109.fa
+11		7	4100	247	3237		chr21_11.fa
+12		7	1208	73	950		chr21_110.fa
+13		7	3766	162	2974		chr21_116.fa
+14		7	4607	210	3408		chr21_117.fa
+15		7	4801	284	3607		chr21_118.fa
+16		7	4781	157	3732		chr21_119.fa
+17		7	4772	140	3851		chr21_120.fa
+18		7	4988	230	3724		chr21_121.fa
+19		7	4721	168	3665		chr21_122.fa
+20		7	4309	217	3391		chr21_123.fa
+21		7	4998	216	3860		chr21_124.fa
+22		7	5000	244	3848		chr21_125.fa
+23		7	4999	236	3822		chr21_126.fa
+24		7	4998	291	3690		chr21_127.fa
+25		7	4999	264	3975		chr21_128.fa
+26		7	4730	168	3798		chr21_129.fa
+27		7	2623	128	2097		chr21_13.fa
+28		7	1079	87	752		chr21_130.fa
+29		7	1270	92	918		chr21_133.fa
+30		7	4086	197	3110		chr21_134.fa
+31		7	4411	171	3895		chr21_14.fa
+32		7	1676	131	1335		chr21_15.fa
+33		7	2905	167	2246		chr21_16.fa
+34		7	4673	233	3714		chr21_17.fa
+35		7	4263	266	3441		chr21_18.fa
+36		7	4113	205	3262		chr21_19.fa
+37		7	5001	156	4310		chr21_2.fa
+38		7	4956	226	3919		chr21_20.fa
+39		7	4987	177	4106		chr21_21.fa
+40		7	4997	124	4311		chr21_22.fa
+41		7	5001	260	3872		chr21_23.fa
+42		7	3449	109	2897		chr21_24.fa
+43		7	4969	276	3777		chr21_25.fa
+44		7	3296	149	2718		chr21_3.fa
+45		7	4393	184	3615		chr21_30.fa
+46		7	5000	266	3826		chr21_31.fa
+47		7	4733	165	3951		chr21_32.fa
+48		7	2474	74	2056		chr21_34.fa
+49		7	4487	130	3755		chr21_35.fa
+50		7	4463	230	3272		chr21_36.fa
+51		7	4893	208	3910		chr21_37.fa
+52		7	4038	232	3040		chr21_38.fa
+53		7	3839	135	3101		chr21_39.fa
+54		7	2468	19	2284		chr21_4.fa
+55		7	3749	94	2980		chr21_41.fa
+56		7	5000	134	4251		chr21_42.fa
+57		7	2993	103	2373		chr21_43.fa
+58		7	4678	190	3737		chr21_44.fa
+59		7	4758	201	3574		chr21_48.fa
+60		7	4768	247	3862		chr21_5.fa
+61		7	4684	168	3778		chr21_57.fa
+62		7	4816	175	3681		chr21_58.fa
+63		7	3975	171	3106		chr21_59.fa
+64		7	4527	182	3857		chr21_6.fa
+65		7	4426	174	3307		chr21_60.fa
+66		7	2727	87	2244		chr21_61.fa
+67		7	4997	199	3883		chr21_65.fa
+68		7	4081	135	3237		chr21_66.fa
+69		7	5000	179	3972		chr21_67.fa
+70		7	4503	165	3420		chr21_68.fa
+71		7	4188	175	3160		chr21_69.fa
+72		7	2375	91	2017		chr21_7.fa
+73		7	4723	166	3713		chr21_70.fa
+74		7	4854	203	3632		chr21_72.fa
+75		7	4950	191	3824		chr21_73.fa
+76		7	3834	83	3173		chr21_74.fa
+77		7	3359	75	2899		chr21_75.fa
+78		7	3859	84	3308		chr21_77.fa
+79		7	4838	173	3764		chr21_78.fa
+80		7	4755	143	3689		chr21_79.fa
+81		7	3408	52	3013		chr21_8.fa
+82		7	4885	203	3703		chr21_80.fa
+83		7	3997	252	2989		chr21_81.fa
+84		7	4702	238	3637		chr21_82.fa
+85		7	4820	188	3641		chr21_83.fa
+86		7	3746	100	3014		chr21_84.fa
+87		7	3909	147	2975		chr21_85.fa
+88		7	4073	138	3179		chr21_86.fa
+89		7	3764	133	2901		chr21_87.fa
+90		7	4180	118	3376		chr21_88.fa
+91		7	2977	80	2561		chr21_89.fa
+92		7	5001	125	4419		chr21_90.fa
+93		7	5001	155	4294		chr21_91.fa
+94		7	5001	135	4293		chr21_92.fa
+95		7	3277	140	2547		chr21_93.fa
+96		7	4729	188	3763		chr21_94.fa
+97		7	3947	168	3132		chr21_95.fa
+98		7	766	13	635		chr21_96.fa
+99		7	4771	204	3767		chr21_98.fa
+100		7	3983	81	3532		chr21_99.fa
+Linked 7 total sequences
+
+Creating fast initial parsimony tree by random order stepwise addition...
+0.013 seconds, parsimony score: 98695 (based on 85493 sites)
+Perform fast likelihood tree search using GTR+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Estimate model parameters (epsilon = 1.000)
+Estimate model parameters (epsilon = 1.000)
+Estimate model parameters (epsilon = 1.000)
+Estimate model parameters (epsilon = 1.000)
+Estimate model parameters (epsilon = 1.000)
+Estimate model parameters (epsilon = 1.000)
+Estimate model parameters (epsilon = 1.000)
+Estimate model parameters (epsilon = 1.000)
+Estimate model parameters (epsilon = 1.000)
+Estimate model parameters (epsilon = 1.000)
+Estimate model parameters (epsilon = 1.000)
+Estimate model parameters (epsilon = 1.000)
+Estimate model parameters (epsilon = 1.000)
+Estimate model parameters (epsilon = 1.000)
+Estimate model parameters (epsilon = 1.000)
+Estimate model parameters (epsilon = 1.000)
+Estimate model parameters (epsilon = 1.000)
+Estimate model parameters (epsilon = 1.000)
+Estimate model parameters (epsilon = 1.000)
+Estimate model parameters (epsilon = 1.000)
+Estimate model parameters (epsilon = 1.000)
+Estimate model parameters (epsilon = 1.000)
+Estimate model parameters (epsilon = 1.000)
+Estimate model parameters (epsilon = 1.000)
+Estimate model parameters (epsilon = 1.000)
+Estimate model parameters (epsilon = 1.000)
+Estimate model parameters (epsilon = 1.000)
+Estimate model parameters (epsilon = 1.000)
+Estimate model parameters (epsilon = 1.000)
+Estimate model parameters (epsilon = 1.000)
+Estimate model parameters (epsilon = 1.000)
+Estimate model parameters (epsilon = 1.000)
+Estimate model parameters (epsilon = 1.000)
+Estimate model parameters (epsilon = 1.000)
+Estimate model parameters (epsilon = 1.000)
+Estimate model parameters (epsilon = 1.000)
+Estimate model parameters (epsilon = 1.000)
+Estimate model parameters (epsilon = 1.000)
+Estimate model parameters (epsilon = 1.000)
+Estimate model parameters (epsilon = 1.000)
+Estimate model parameters (epsilon = 1.000)
+Estimate model parameters (epsilon = 1.000)
+Estimate model parameters (epsilon = 1.000)
+Estimate model parameters (epsilon = 1.000)
+Estimate model parameters (epsilon = 1.000)
+Estimate model parameters (epsilon = 1.000)
+Estimate model parameters (epsilon = 1.000)
+Estimate model parameters (epsilon = 1.000)
+Estimate model parameters (epsilon = 1.000)
+Estimate model parameters (epsilon = 1.000)
+Estimate model parameters (epsilon = 1.000)
+Estimate model parameters (epsilon = 1.000)
+Estimate model parameters (epsilon = 1.000)
+Estimate model parameters (epsilon = 1.000)
+Estimate model parameters (epsilon = 1.000)
+Estimate model parameters (epsilon = 1.000)
+Estimate model parameters (epsilon = 1.000)
+Estimate model parameters (epsilon = 1.000)
+Estimate model parameters (epsilon = 1.000)
+Estimate model parameters (epsilon = 1.000)
+Estimate model parameters (epsilon = 1.000)
+Estimate model parameters (epsilon = 1.000)
+Estimate model parameters (epsilon = 1.000)
+Estimate model parameters (epsilon = 1.000)
+Estimate model parameters (epsilon = 1.000)
+Estimate model parameters (epsilon = 1.000)
+Estimate model parameters (epsilon = 1.000)
+Estimate model parameters (epsilon = 1.000)
+Estimate model parameters (epsilon = 1.000)
+Estimate model parameters (epsilon = 1.000)
+Estimate model parameters (epsilon = 1.000)
+Estimate model parameters (epsilon = 1.000)
+Estimate model parameters (epsilon = 1.000)
+Estimate model parameters (epsilon = 1.000)
+Estimate model parameters (epsilon = 1.000)
+Estimate model parameters (epsilon = 1.000)
+Estimate model parameters (epsilon = 1.000)
+Estimate model parameters (epsilon = 1.000)
+Estimate model parameters (epsilon = 1.000)
+Estimate model parameters (epsilon = 1.000)
+Estimate model parameters (epsilon = 1.000)
+Estimate model parameters (epsilon = 1.000)
+Estimate model parameters (epsilon = 1.000)
+Estimate model parameters (epsilon = 1.000)
+Estimate model parameters (epsilon = 1.000)
+Estimate model parameters (epsilon = 1.000)
+Estimate model parameters (epsilon = 1.000)
+Estimate model parameters (epsilon = 1.000)
+Estimate model parameters (epsilon = 1.000)
+Estimate model parameters (epsilon = 1.000)
+Estimate model parameters (epsilon = 1.000)
+Estimate model parameters (epsilon = 1.000)
+Estimate model parameters (epsilon = 1.000)
+Estimate model parameters (epsilon = 1.000)
+Estimate model parameters (epsilon = 1.000)
+Estimate model parameters (epsilon = 1.000)
+Estimate model parameters (epsilon = 1.000)
+Estimate model parameters (epsilon = 1.000)
+Estimate model parameters (epsilon = 1.000)
+Estimate model parameters (epsilon = 1.000)
+Log-likelihood: -1056599.330
+Time for fast ML tree search: 0.803 seconds
+
+NOTE: ModelFinder requires 7 MB RAM!
+Selecting individual models for 100 charsets using BIC...
+ No. Model        Score       TreeLen     Charset
+   1 TPM3+F+I     24589.012   0.522       chr21_119.fa
+   2 HKY+F+I      26934.435   0.556       chr21_118.fa
+   3 TN+F         26171.970   0.493       chr21_48.fa
+   4 TPM2+F       25510.302   0.574       chr21_117.fa
+   5 HKY+F+G4     22316.126   0.529       chr21_134.fa
+   6 TPM3+F+G4    26928.810   0.564       chr21_72.fa
+   7 HKY+F+I      27607.448   0.454       chr21_107.fa
+WARNING: Log-likelihood -14166 of GTR+F+R3 worse than GTR+F+R2 -14164.7
+   8 K3Pu+F+G4    29061.961   0.421       chr21_127.fa
+   9 TPM3+F+I     26923.946   0.509       chr21_31.fa
+  10 HKY+F+I      28480.302   0.395       chr21_121.fa	0h:0m:2s (0h:0m:21s left)
+  11 HKY+F+G4     24658.529   0.533       chr21_98.fa	0h:0m:2s (0h:0m:21s left)
+  12 HKY+F+I      25561.747   0.482       chr21_78.fa	0h:0m:2s (0h:0m:19s left)
+  13 TVM+F+I      24654.121   0.481       chr21_122.fa	0h:0m:3s (0h:0m:20s left)
+  14 HKY+F        24912.380   0.505       chr21_60.fa	0h:0m:3s (0h:0m:19s left)
+  15 HKY+F        26528.245   0.441       chr21_83.fa	0h:0m:3s (0h:0m:19s left)
+  16 HKY+F+I      25320.954   0.490       chr21_102.fa	0h:0m:3s (0h:0m:19s left)
+  17 HKY+F+I      22415.168   0.431       chr21_81.fa	0h:0m:3s (0h:0m:18s left)
+  18 TPM3+F+I     26123.462   0.434       chr21_36.fa	0h:0m:3s (0h:0m:17s left)
+  19 HKY+F+I      24060.105   0.447       chr21_109.fa	0h:0m:4s (0h:0m:17s left)
+  20 HKY+F+G4     26585.301   0.787       chr21_73.fa	0h:0m:4s (0h:0m:16s left)
+  21 HKY+F+G4     24799.830   0.360       chr21_82.fa	0h:0m:4s (0h:0m:16s left)
+  22 HKY+F        21771.344   0.517       chr21_123.fa	0h:0m:4s (0h:0m:16s left)
+  23 TPM3+F+G4    26768.117   0.430       chr21_80.fa	0h:0m:4s (0h:0m:15s left)
+  24 HKY+F        24500.462   0.672       chr21_68.fa	0h:0m:4s (0h:0m:15s left)
+  25 HKY+F+G4     27274.902   0.416       chr21_126.fa	0h:0m:5s (0h:0m:15s left)
+  26 HKY+F+I      25521.794   0.520       chr21_67.fa	0h:0m:5s (0h:0m:15s left)
+  27 TPM2+F+G4    24570.872   0.419       chr21_79.fa	0h:0m:5s (0h:0m:14s left)
+  28 TPM3+F+I     26396.892   0.349       chr21_103.fa	0h:0m:5s (0h:0m:15s left)
+  29 HKY+F+I      18739.910   0.528       chr21_39.fa	0h:0m:5s (0h:0m:14s left)
+  30 TPM2+F+G4    26340.418   0.476       chr21_58.fa	0h:0m:6s (0h:0m:14s left)
+  31 HKY+F+G4     27043.122   0.409       chr21_25.fa	0h:0m:6s (0h:0m:13s left)
+  32 HKY+F+G4     23967.263   0.403       chr21_17.fa	0h:0m:6s (0h:0m:13s left)
+  33 HKY+F        20673.541   0.458       chr21_59.fa	0h:0m:6s (0h:0m:13s left)
+  34 TPM3+F+I     26671.664   0.319       chr21_65.fa	0h:0m:6s (0h:0m:12s left)
+  35 TN+F+I       26840.914   0.386       chr21_23.fa	0h:0m:6s (0h:0m:12s left)
+  36 HKY+F+G4     26900.681   0.453       chr21_125.fa	0h:0m:6s (0h:0m:12s left)
+  37 HKY+F+G4     23861.699   0.361       chr21_21.fa	0h:0m:7s (0h:0m:12s left)
+  38 HKY+F+G4     23378.231   0.471       chr21_69.fa	0h:0m:7s (0h:0m:11s left)
+  39 HKY+F+I      27004.978   0.500       chr21_124.fa	0h:0m:7s (0h:0m:11s left)
+  40 HKY+F+G4     25647.019   4.453       chr21_105.fa	0h:0m:7s (0h:0m:10s left)
+  41 TVM+F+I      20838.902   0.848       chr21_66.fa	0h:0m:7s (0h:0m:11s left)
+  42 HKY+F+I      25527.670   0.416       chr21_104.fa	0h:0m:7s (0h:0m:10s left)
+  43 HKY+F+I      21455.838   0.387       chr21_19.fa	0h:0m:7s (0h:0m:10s left)
+  44 HKY+F+G4     20386.162   0.418       chr21_87.fa	0h:0m:7s (0h:0m:10s left)
+  45 TPM2+F+I     21572.532   0.399       chr21_11.fa	0h:0m:8s (0h:0m:9s left)
+  46 HKY+F+G4     22348.755   0.399       chr21_38.fa	0h:0m:8s (0h:0m:9s left)
+  47 HKY+F        23798.086   0.400       chr21_44.fa	0h:0m:8s (0h:0m:9s left)
+  48 K3Pu+F+I     24382.801   0.935       chr21_101.fa	0h:0m:8s (0h:0m:9s left)
+  49 HKY+F+I      21201.434   0.612       chr21_86.fa	0h:0m:8s (0h:0m:9s left)
+  50 TPM2+F+G4    24081.976   0.320       chr21_129.fa	0h:0m:9s (0h:0m:9s left)
+  51 TPM2+F+G4    24127.397   0.306       chr21_120.fa	0h:0m:9s (0h:0m:8s left)
+  52 HKY+F        19676.010   0.520       chr21_95.fa	0h:0m:9s (0h:0m:8s left)
+  53 HKY+F+I      25753.632   0.414       chr21_128.fa	0h:0m:9s (0h:0m:8s left)
+  54 TPM2+F+G4    23531.311   0.556       chr21_57.fa	0h:0m:9s (0h:0m:8s left)
+  55 K3Pu+F+I     26122.859   0.333       chr21_20.fa	0h:0m:9s (0h:0m:7s left)
+  56 HKY+F+I      17248.742   0.489       chr21_93.fa	0h:0m:10s (0h:0m:7s left)
+  57 TPM3+F       21319.978   0.470       chr21_85.fa	0h:0m:10s (0h:0m:7s left)
+  58 HKY+F        21502.505   0.493       chr21_32.fa	0h:0m:10s (0h:0m:7s left)
+  59 HKY+F+I      25231.790   0.293       chr21_37.fa	0h:0m:10s (0h:0m:7s left)
+  60 HKY+F+G4     24294.428   0.451       chr21_94.fa	0h:0m:10s (0h:0m:7s left)
+  61 HKY+F        18343.696   0.426       chr21_84.fa	0h:0m:10s (0h:0m:6s left)
+  62 TPM3+F       20947.104   0.404       chr21_18.fa	0h:0m:11s (0h:0m:6s left)
+  63 HKY+F        18884.365   0.481       chr21_116.fa	0h:0m:11s (0h:0m:6s left)
+  64 HKY+F        20526.830   0.499       chr21_22.fa	0h:0m:11s (0h:0m:6s left)
+  65 TPM2+F+G4    24158.325   0.452       chr21_70.fa	0h:0m:11s (0h:0m:6s left)
+  66 HKY+F+I      23882.489   0.316       chr21_10.fa	0h:0m:11s (0h:0m:6s left)
+  67 HKY+F        15311.510   0.376       chr21_43.fa	0h:0m:11s (0h:0m:5s left)
+  68 HKY+F        19770.708   0.356       chr21_6.fa	0h:0m:12s (0h:0m:5s left)
+  69 HKY+F+I      16978.275   0.479       chr21_77.fa	0h:0m:12s (0h:0m:5s left)
+  70 HKY+F+G4     17615.167   0.820       chr21_74.fa	0h:0m:12s (0h:0m:5s left)
+  71 HKY+F+G4     23519.002   0.282       chr21_5.fa	0h:0m:12s (0h:0m:5s left)
+  72 HKY+F+I      18460.175   0.524       chr21_41.fa	0h:0m:12s (0h:0m:5s left)
+  73 HKY+F+I      22419.878   0.357       chr21_106.fa	0h:0m:12s (0h:0m:4s left)
+  74 HKY+F+I      21149.101   0.363       chr21_88.fa	0h:0m:13s (0h:0m:4s left)
+  75 HKY+F+I      15638.749   0.398       chr21_16.fa	0h:0m:13s (0h:0m:4s left)
+  76 HKY+F+I      14220.760   0.547       chr21_75.fa	0h:0m:13s (0h:0m:4s left)
+  77 HKY+F+I      21691.400   0.254       chr21_30.fa	0h:0m:13s (0h:0m:4s left)
+  78 HKY+F        17690.572   0.445       chr21_14.fa	0h:0m:13s (0h:0m:3s left)
+  79 HKY+F+G4     23423.460   0.211       chr21_42.fa	0h:0m:13s (0h:0m:3s left)
+  80 HKY+F        15132.011   0.532       chr21_24.fa	0h:0m:14s (0h:0m:3s left)
+  81 HKY+F        15684.294   0.294       chr21_3.fa	0h:0m:14s (0h:0m:3s left)
+  82 HKY+F+I      21684.361   0.236       chr21_35.fa	0h:0m:14s (0h:0m:3s left)
+  83 HKY+F        12801.658   0.477       chr21_89.fa	0h:0m:14s (0h:0m:3s left)
+  84 TN+F+I       13526.012   0.339       chr21_13.fa	0h:0m:14s (0h:0m:2s left)
+  85 HKY+F+G4     13058.451   0.470       chr21_61.fa	0h:0m:15s (0h:0m:2s left)
+  86 K3Pu+F+I     22490.702   0.266       chr21_2.fa	0h:0m:15s (0h:0m:2s left)
+  87 HKY+F+G4     16252.200   0.519       chr21_99.fa	0h:0m:15s (0h:0m:2s left)
+  88 TN+F+G4      22743.628   0.181       chr21_92.fa	0h:0m:15s (0h:0m:2s left)
+  89 HKY+F        11632.749   0.350       chr21_34.fa	0h:0m:15s (0h:0m:1s left)
+  90 HKY+F+G4     10727.583   0.291       chr21_7.fa	0h:0m:15s (0h:0m:1s left)
+  91 HKY+F        13001.528   0.647       chr21_8.fa	0h:0m:15s (0h:0m:1s left)
+  92 K3Pu+F+I     6821.159    0.462       chr21_130.fa	0h:0m:15s (0h:0m:1s left)
+  93 HKY+F        8304.184    0.876       chr21_15.fa	0h:0m:15s (0h:0m:1s left)
+  94 HKY+F        6033.207    1.297       chr21_110.fa	0h:0m:15s (0h:0m:1s left)
+  95 HKY+F+I      21128.977   0.146       chr21_90.fa	0h:0m:15s (0h:0m:0s left)
+  96 HKY+F        8524.855    1.439       chr21_4.fa	0h:0m:16s (0h:0m:0s left)
+  97 HKY+F+I      7557.373    0.686       chr21_133.fa	0h:0m:16s (0h:0m:0s left)
+  98 HKY+F        3313.120    0.539       chr21_96.fa	0h:0m:16s (0h:0m:0s left)
+  99 TN+F+G4      22460.256   0.172       chr21_91.fa	0h:0m:16s (0h:0m:0s left)
+ 100 HKY+F+G4     11107.687   0.237       chr21_1.fa	0h:0m:16s (0h:0m:0s left)
+Full partition model BIC score: 2134498.461 (LnL: -1056856.427  df:1606)
+Partition information was printed to output/trees/chr21.best_scheme.nex
+Partition information in Raxml format was printed to output/trees/chr21.best_scheme
+
+All model information printed to output/trees/chr21.model.gz
+CPU time for ModelFinder: 68.645 seconds (0h:1m:8s)
+Wall-clock time for ModelFinder: 17.369 seconds (0h:0m:17s)
+
+NOTE: 23 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+Partition chr21_117.fa / Model: TPM2+F / df: 16 / LogL: -12687.670
+Partition chr21_48.fa / Model: TN+F / df: 16 / LogL: -13018.244
+Partition chr21_118.fa / Model: HKY+F+I / df: 16 / LogL: -13399.405
+Partition chr21_119.fa / Model: TPM3+F+I / df: 17 / LogL: -12222.491
+Partition chr21_107.fa / Model: HKY+F+I / df: 16 / LogL: -13735.980
+Partition chr21_134.fa / Model: HKY+F+G4 / df: 16 / LogL: -11091.540
+Partition chr21_31.fa / Model: TPM3+F+I / df: 17 / LogL: -13389.578
+Partition chr21_127.fa / Model: K3Pu+F+G4 / df: 17 / LogL: -14458.588
+Partition chr21_72.fa / Model: TPM3+F+G4 / df: 17 / LogL: -13392.261
+Partition chr21_78.fa / Model: HKY+F+I / df: 16 / LogL: -12712.999
+Partition chr21_121.fa / Model: HKY+F+I / df: 16 / LogL: -14172.031
+Partition chr21_60.fa / Model: HKY+F / df: 15 / LogL: -12393.225
+Partition chr21_83.fa / Model: HKY+F / df: 15 / LogL: -13200.518
+Partition chr21_98.fa / Model: HKY+F+G4 / df: 16 / LogL: -12261.502
+Partition chr21_122.fa / Model: TVM+F+I / df: 19 / LogL: -12246.693
+Partition chr21_81.fa / Model: HKY+F+I / df: 16 / LogL: -11141.237
+Partition chr21_102.fa / Model: HKY+F+I / df: 16 / LogL: -12593.181
+Partition chr21_36.fa / Model: TPM3+F+I / df: 17 / LogL: -12990.302
+Partition chr21_109.fa / Model: HKY+F+I / df: 16 / LogL: -11962.717
+Partition chr21_123.fa / Model: HKY+F / df: 15 / LogL: -10822.909
+Partition chr21_68.fa / Model: HKY+F / df: 15 / LogL: -12187.134
+Partition chr21_73.fa / Model: HKY+F+G4 / df: 16 / LogL: -13224.593
+Partition chr21_82.fa / Model: HKY+F+G4 / df: 16 / LogL: -12332.269
+Partition chr21_103.fa / Model: TPM3+F+I / df: 17 / LogL: -13126.593
+Partition chr21_80.fa / Model: TPM3+F+G4 / df: 17 / LogL: -13311.860
+Partition chr21_79.fa / Model: TPM2+F+G4 / df: 17 / LogL: -12213.467
+Partition chr21_67.fa / Model: HKY+F+I / df: 16 / LogL: -12692.760
+Partition chr21_126.fa / Model: HKY+F+G4 / df: 16 / LogL: -13569.315
+Partition chr21_39.fa / Model: HKY+F+I / df: 16 / LogL: -9303.931
+Partition chr21_25.fa / Model: HKY+F+G4 / df: 16 / LogL: -13453.473
+Partition chr21_58.fa / Model: TPM2+F+G4 / df: 17 / LogL: -13098.131
+Partition chr21_23.fa / Model: TN+F+I / df: 17 / LogL: -13348.059
+Partition chr21_59.fa / Model: HKY+F / df: 15 / LogL: -10274.612
+Partition chr21_17.fa / Model: HKY+F+G4 / df: 16 / LogL: -11916.035
+Partition chr21_65.fa / Model: TPM3+F+I / df: 17 / LogL: -13263.441
+Partition chr21_124.fa / Model: HKY+F+I / df: 16 / LogL: -13434.355
+Partition chr21_125.fa / Model: HKY+F+G4 / df: 16 / LogL: -13382.203
+Partition chr21_21.fa / Model: HKY+F+G4 / df: 16 / LogL: -11862.733
+Partition chr21_69.fa / Model: HKY+F+G4 / df: 16 / LogL: -11622.396
+Partition chr21_19.fa / Model: HKY+F+I / df: 16 / LogL: -10661.344
+Partition chr21_66.fa / Model: TVM+F+I / df: 19 / LogL: -10340.433
+Partition chr21_105.fa / Model: HKY+F+G4 / df: 16 / LogL: -12755.372
+Partition chr21_104.fa / Model: HKY+F+I / df: 16 / LogL: -12695.702
+Partition chr21_11.fa / Model: TPM2+F+I / df: 17 / LogL: -10715.557
+Partition chr21_44.fa / Model: HKY+F / df: 15 / LogL: -11835.663
+Partition chr21_87.fa / Model: HKY+F+G4 / df: 16 / LogL: -10127.215
+Partition chr21_86.fa / Model: HKY+F+I / df: 16 / LogL: -10534.221
+Partition chr21_101.fa / Model: K3Pu+F+I / df: 17 / LogL: -12119.421
+Partition chr21_128.fa / Model: HKY+F+I / df: 16 / LogL: -12808.680
+Partition chr21_95.fa / Model: HKY+F / df: 15 / LogL: -9775.899
+Partition chr21_120.fa / Model: TPM2+F+G4 / df: 17 / LogL: -11991.699
+Partition chr21_38.fa / Model: HKY+F+G4 / df: 16 / LogL: -11107.949
+Partition chr21_129.fa / Model: TPM2+F+G4 / df: 17 / LogL: -11969.064
+Partition chr21_93.fa / Model: HKY+F+I / df: 16 / LogL: -8559.613
+Partition chr21_20.fa / Model: K3Pu+F+I / df: 17 / LogL: -12989.109
+Partition chr21_85.fa / Model: TPM3+F / df: 16 / LogL: -10593.821
+Partition chr21_32.fa / Model: HKY+F / df: 15 / LogL: -10687.785
+Partition chr21_57.fa / Model: TPM2+F+G4 / df: 17 / LogL: -11693.814
+Partition chr21_37.fa / Model: HKY+F+I / df: 16 / LogL: -12547.931
+Partition chr21_84.fa / Model: HKY+F / df: 15 / LogL: -9110.135
+Partition chr21_116.fa / Model: HKY+F / df: 15 / LogL: -9380.429
+Partition chr21_22.fa / Model: HKY+F / df: 15 / LogL: -10199.541
+Partition chr21_18.fa / Model: TPM3+F / df: 16 / LogL: -10406.690
+Partition chr21_94.fa / Model: HKY+F+G4 / df: 16 / LogL: -12079.522
+Partition chr21_43.fa / Model: HKY+F / df: 15 / LogL: -7595.725
+Partition chr21_10.fa / Model: HKY+F+I / df: 16 / LogL: -11873.370
+Partition chr21_6.fa / Model: HKY+F / df: 15 / LogL: -9822.220
+Partition chr21_77.fa / Model: HKY+F+I / df: 16 / LogL: -8423.072
+Partition chr21_5.fa / Model: HKY+F+G4 / df: 16 / LogL: -11691.743
+Partition chr21_88.fa / Model: HKY+F+I / df: 16 / LogL: -10507.846
+Partition chr21_30.fa / Model: HKY+F+I / df: 16 / LogL: -10778.598
+Partition chr21_74.fa / Model: HKY+F+G4 / df: 16 / LogL: -8741.570
+Partition chr21_106.fa / Model: HKY+F+I / df: 16 / LogL: -11142.552
+Partition chr21_41.fa / Model: HKY+F+I / df: 16 / LogL: -9164.254
+Partition chr21_75.fa / Model: HKY+F+I / df: 16 / LogL: -7045.425
+Partition chr21_14.fa / Model: HKY+F / df: 15 / LogL: -8782.347
+Partition chr21_16.fa / Model: HKY+F+I / df: 16 / LogL: -7755.581
+Partition chr21_70.fa / Model: TPM2+F+G4 / df: 17 / LogL: -12007.253
+Partition chr21_24.fa / Model: HKY+F / df: 15 / LogL: -7504.912
+Partition chr21_35.fa / Model: HKY+F+I / df: 16 / LogL: -10774.909
+Partition chr21_3.fa / Model: HKY+F / df: 15 / LogL: -7781.393
+Partition chr21_2.fa / Model: K3Pu+F+I / df: 17 / LogL: -11172.955
+Partition chr21_13.fa / Model: TN+F+I / df: 17 / LogL: -6696.091
+Partition chr21_89.fa / Model: HKY+F / df: 15 / LogL: -6340.838
+Partition chr21_42.fa / Model: HKY+F+G4 / df: 16 / LogL: -11643.593
+Partition chr21_61.fa / Model: HKY+F+G4 / df: 16 / LogL: -6465.938
+Partition chr21_99.fa / Model: HKY+F+G4 / df: 16 / LogL: -8059.782
+Partition chr21_130.fa / Model: K3Pu+F+I / df: 17 / LogL: -3351.217
+Partition chr21_34.fa / Model: HKY+F / df: 15 / LogL: -5757.773
+Partition chr21_8.fa / Model: HKY+F / df: 15 / LogL: -6439.760
+Partition chr21_92.fa / Model: TN+F+G4 / df: 17 / LogL: -11299.419
+Partition chr21_15.fa / Model: HKY+F / df: 15 / LogL: -4096.411
+Partition chr21_110.fa / Model: HKY+F / df: 15 / LogL: -2963.376
+Partition chr21_7.fa / Model: HKY+F+G4 / df: 16 / LogL: -5301.610
+Partition chr21_133.fa / Model: HKY+F+I / df: 16 / LogL: -3721.512
+Partition chr21_4.fa / Model: HKY+F / df: 15 / LogL: -4203.798
+Partition chr21_90.fa / Model: HKY+F+I / df: 16 / LogL: -10496.349
+Partition chr21_96.fa / Model: HKY+F / df: 15 / LogL: -1606.751
+Partition chr21_1.fa / Model: HKY+F+G4 / df: 16 / LogL: -5491.635
+Partition chr21_91.fa / Model: TN+F+G4 / df: 17 / LogL: -11157.730
+Optimal log-likelihood: -1056856.353
+--------------------------------------------------------------------
+|                SEPARATE TREE SEARCH FOR PARTITIONS               |
+--------------------------------------------------------------------
+Partition chr21_118.fa / Iterations: 102 / LogL: -13399.4 / Time: 0h:0m:0s
+Partition chr21_117.fa / Iterations: 102 / LogL: -12687.7 / Time: 0h:0m:0s
+Partition chr21_119.fa / Iterations: 102 / LogL: -12222.5 / Time: 0h:0m:0s
+Partition chr21_48.fa / Iterations: 102 / LogL: -13000.1 / Time: 0h:0m:0s
+Partition chr21_107.fa / Iterations: 102 / LogL: -13735 / Time: 0h:0m:1s
+Partition chr21_134.fa / Iterations: 102 / LogL: -11080.4 / Time: 0h:0m:1s
+Partition chr21_72.fa / Iterations: 102 / LogL: -13391.2 / Time: 0h:0m:1s
+Partition chr21_127.fa / Iterations: 102 / LogL: -14458.1 / Time: 0h:0m:1s
+Partition chr21_78.fa / Iterations: 102 / LogL: -12713 / Time: 0h:0m:2s
+Partition chr21_121.fa / Iterations: 102 / LogL: -14170.7 / Time: 0h:0m:2s
+Partition chr21_31.fa / Iterations: 102 / LogL: -13389.6 / Time: 0h:0m:2s
+Partition chr21_98.fa / Iterations: 102 / LogL: -12261.5 / Time: 0h:0m:2s
+Partition chr21_60.fa / Iterations: 102 / LogL: -12391.6 / Time: 0h:0m:3s
+Partition chr21_122.fa / Iterations: 102 / LogL: -12246.4 / Time: 0h:0m:3s
+Partition chr21_83.fa / Iterations: 102 / LogL: -13200 / Time: 0h:0m:3s
+Partition chr21_81.fa / Iterations: 102 / LogL: -11141.2 / Time: 0h:0m:3s
+Partition chr21_36.fa / Iterations: 102 / LogL: -12990.3 / Time: 0h:0m:3s
+Partition chr21_102.fa / Iterations: 102 / LogL: -12593.2 / Time: 0h:0m:3s
+Partition chr21_109.fa / Iterations: 102 / LogL: -11962.7 / Time: 0h:0m:3s
+Partition chr21_123.fa / Iterations: 102 / LogL: -10822.9 / Time: 0h:0m:4s
+Partition chr21_73.fa / Iterations: 102 / LogL: -13224.3 / Time: 0h:0m:4s
+Partition chr21_82.fa / Iterations: 102 / LogL: -12331.6 / Time: 0h:0m:4s
+Partition chr21_68.fa / Iterations: 102 / LogL: -12186.2 / Time: 0h:0m:4s
+Partition chr21_103.fa / Iterations: 102 / LogL: -13126.6 / Time: 0h:0m:5s
+Partition chr21_80.fa / Iterations: 102 / LogL: -13301.4 / Time: 0h:0m:5s
+Partition chr21_79.fa / Iterations: 102 / LogL: -12202 / Time: 0h:0m:5s
+Partition chr21_126.fa / Iterations: 102 / LogL: -13569.1 / Time: 0h:0m:5s
+Partition chr21_67.fa / Iterations: 102 / LogL: -12692 / Time: 0h:0m:5s
+Partition chr21_58.fa / Iterations: 102 / LogL: -13098.1 / Time: 0h:0m:5s
+Partition chr21_25.fa / Iterations: 102 / LogL: -13453.5 / Time: 0h:0m:6s
+Partition chr21_39.fa / Iterations: 102 / LogL: -9302.48 / Time: 0h:0m:6s
+Partition chr21_23.fa / Iterations: 102 / LogL: -13344.4 / Time: 0h:0m:6s
+Partition chr21_59.fa / Iterations: 102 / LogL: -10272.3 / Time: 0h:0m:6s
+Partition chr21_17.fa / Iterations: 105 / LogL: -11915.9 / Time: 0h:0m:6s
+Partition chr21_65.fa / Iterations: 105 / LogL: -13263.4 / Time: 0h:0m:6s
+Partition chr21_124.fa / Iterations: 102 / LogL: -13434.4 / Time: 0h:0m:7s
+Partition chr21_125.fa / Iterations: 102 / LogL: -13382.2 / Time: 0h:0m:7s
+Partition chr21_69.fa / Iterations: 102 / LogL: -11622.4 / Time: 0h:0m:7s
+Partition chr21_21.fa / Iterations: 102 / LogL: -11862.7 / Time: 0h:0m:7s
+Partition chr21_104.fa / Iterations: 102 / LogL: -12695.7 / Time: 0h:0m:7s
+Partition chr21_105.fa / Iterations: 102 / LogL: -12755.4 / Time: 0h:0m:7s
+Partition chr21_19.fa / Iterations: 102 / LogL: -10656.9 / Time: 0h:0m:8s
+Partition chr21_66.fa / Iterations: 102 / LogL: -10340.4 / Time: 0h:0m:8s
+Partition chr21_11.fa / Iterations: 102 / LogL: -10713.5 / Time: 0h:0m:8s
+Partition chr21_44.fa / Iterations: 102 / LogL: -11835 / Time: 0h:0m:8s
+Partition chr21_87.fa / Iterations: 102 / LogL: -10127.2 / Time: 0h:0m:8s
+Partition chr21_38.fa / Iterations: 102 / LogL: -11107.9 / Time: 0h:0m:8s
+Partition chr21_86.fa / Iterations: 102 / LogL: -10532.9 / Time: 0h:0m:9s
+Partition chr21_101.fa / Iterations: 102 / LogL: -12119.4 / Time: 0h:0m:9s
+Partition chr21_128.fa / Iterations: 102 / LogL: -12808.7 / Time: 0h:0m:9s
+Partition chr21_120.fa / Iterations: 102 / LogL: -11991.7 / Time: 0h:0m:9s
+Partition chr21_95.fa / Iterations: 102 / LogL: -9775.9 / Time: 0h:0m:9s
+Partition chr21_93.fa / Iterations: 102 / LogL: -8559.61 / Time: 0h:0m:9s
+Partition chr21_129.fa / Iterations: 102 / LogL: -11969.1 / Time: 0h:0m:9s
+Partition chr21_57.fa / Iterations: 103 / LogL: -11693.7 / Time: 0h:0m:10s
+Partition chr21_20.fa / Iterations: 102 / LogL: -12987.2 / Time: 0h:0m:10s
+Partition chr21_85.fa / Iterations: 103 / LogL: -10590.8 / Time: 0h:0m:10s
+Partition chr21_37.fa / Iterations: 102 / LogL: -12547 / Time: 0h:0m:10s
+Partition chr21_32.fa / Iterations: 102 / LogL: -10687.8 / Time: 0h:0m:10s
+Partition chr21_84.fa / Iterations: 102 / LogL: -9110.13 / Time: 0h:0m:10s
+Partition chr21_116.fa / Iterations: 102 / LogL: -9380.43 / Time: 0h:0m:11s
+Partition chr21_94.fa / Iterations: 107 / LogL: -12079.5 / Time: 0h:0m:11s
+Partition chr21_18.fa / Iterations: 102 / LogL: -10405.6 / Time: 0h:0m:11s
+Partition chr21_10.fa / Iterations: 102 / LogL: -11873.4 / Time: 0h:0m:11s
+Partition chr21_22.fa / Iterations: 102 / LogL: -10198.3 / Time: 0h:0m:11s
+Partition chr21_43.fa / Iterations: 102 / LogL: -7595.72 / Time: 0h:0m:11s
+Partition chr21_70.fa / Iterations: 103 / LogL: -12005.4 / Time: 0h:0m:11s
+Partition chr21_6.fa / Iterations: 102 / LogL: -9822.22 / Time: 0h:0m:12s
+Partition chr21_5.fa / Iterations: 102 / LogL: -11691.7 / Time: 0h:0m:12s
+Partition chr21_77.fa / Iterations: 102 / LogL: -8420.42 / Time: 0h:0m:12s
+Partition chr21_74.fa / Iterations: 102 / LogL: -8739.96 / Time: 0h:0m:12s
+Partition chr21_88.fa / Iterations: 102 / LogL: -10501.7 / Time: 0h:0m:12s
+Partition chr21_106.fa / Iterations: 103 / LogL: -11142.6 / Time: 0h:0m:12s
+Partition chr21_30.fa / Iterations: 102 / LogL: -10778.6 / Time: 0h:0m:12s
+Partition chr21_41.fa / Iterations: 102 / LogL: -9164.25 / Time: 0h:0m:13s
+Partition chr21_16.fa / Iterations: 102 / LogL: -7755.58 / Time: 0h:0m:13s
+Partition chr21_75.fa / Iterations: 102 / LogL: -7045.42 / Time: 0h:0m:13s
+Partition chr21_14.fa / Iterations: 102 / LogL: -8782.35 / Time: 0h:0m:13s
+Partition chr21_35.fa / Iterations: 102 / LogL: -10774.9 / Time: 0h:0m:13s
+Partition chr21_2.fa / Iterations: 102 / LogL: -11171.3 / Time: 0h:0m:13s
+Partition chr21_42.fa / Iterations: 102 / LogL: -11640.9 / Time: 0h:0m:13s
+Partition chr21_24.fa / Iterations: 102 / LogL: -7504.91 / Time: 0h:0m:13s
+Partition chr21_3.fa / Iterations: 102 / LogL: -7781.39 / Time: 0h:0m:13s
+Partition chr21_13.fa / Iterations: 102 / LogL: -6692.77 / Time: 0h:0m:13s
+Partition chr21_89.fa / Iterations: 102 / LogL: -6340.84 / Time: 0h:0m:14s
+Partition chr21_61.fa / Iterations: 102 / LogL: -6465.94 / Time: 0h:0m:14s
+Partition chr21_92.fa / Iterations: 102 / LogL: -11297 / Time: 0h:0m:14s
+Partition chr21_130.fa / Iterations: 102 / LogL: -3350.88 / Time: 0h:0m:14s
+Partition chr21_99.fa / Iterations: 102 / LogL: -8059.78 / Time: 0h:0m:14s
+Partition chr21_34.fa / Iterations: 102 / LogL: -5757.65 / Time: 0h:0m:14s
+Partition chr21_8.fa / Iterations: 102 / LogL: -6439.76 / Time: 0h:0m:14s
+Partition chr21_7.fa / Iterations: 102 / LogL: -5300.53 / Time: 0h:0m:14s
+Partition chr21_15.fa / Iterations: 105 / LogL: -4096.03 / Time: 0h:0m:14s
+Partition chr21_90.fa / Iterations: 102 / LogL: -10494.8 / Time: 0h:0m:14s
+Partition chr21_133.fa / Iterations: 102 / LogL: -3721.51 / Time: 0h:0m:14s
+Partition chr21_110.fa / Iterations: 102 / LogL: -2963.38 / Time: 0h:0m:14s
+Partition chr21_91.fa / Iterations: 102 / LogL: -11157.7 / Time: 0h:0m:15s
+Partition chr21_1.fa / Iterations: 102 / LogL: -5491.63 / Time: 0h:0m:15s
+Partition chr21_4.fa / Iterations: 102 / LogL: -4201.87 / Time: 0h:0m:15s
+Partition chr21_96.fa / Iterations: 102 / LogL: -1596.33 / Time: 0h:0m:15s
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+Partition chr21_48.fa / Model: TN+F / df: 16 / LogL: -13000.053
+Partition chr21_117.fa / Model: TPM2+F / df: 16 / LogL: -12687.669
+Partition chr21_119.fa / Model: TPM3+F+I / df: 17 / LogL: -12222.491
+Partition chr21_118.fa / Model: HKY+F+I / df: 16 / LogL: -13399.405
+Partition chr21_107.fa / Model: HKY+F+I / df: 16 / LogL: -13735.047
+Partition chr21_134.fa / Model: HKY+F+G4 / df: 16 / LogL: -11080.356
+Partition chr21_127.fa / Model: K3Pu+F+G4 / df: 17 / LogL: -14458.133
+Partition chr21_31.fa / Model: TPM3+F+I / df: 17 / LogL: -13389.577
+Partition chr21_72.fa / Model: TPM3+F+G4 / df: 17 / LogL: -13391.150
+Partition chr21_78.fa / Model: HKY+F+I / df: 16 / LogL: -12712.999
+Partition chr21_121.fa / Model: HKY+F+I / df: 16 / LogL: -14170.664
+Partition chr21_60.fa / Model: HKY+F / df: 15 / LogL: -12391.648
+Partition chr21_122.fa / Model: TVM+F+I / df: 19 / LogL: -12246.448
+Partition chr21_83.fa / Model: HKY+F / df: 15 / LogL: -13199.950
+Partition chr21_98.fa / Model: HKY+F+G4 / df: 16 / LogL: -12261.502
+Partition chr21_81.fa / Model: HKY+F+I / df: 16 / LogL: -11141.237
+Partition chr21_36.fa / Model: TPM3+F+I / df: 17 / LogL: -12990.301
+Partition chr21_102.fa / Model: HKY+F+I / df: 16 / LogL: -12593.181
+Partition chr21_109.fa / Model: HKY+F+I / df: 16 / LogL: -11962.717
+Partition chr21_123.fa / Model: HKY+F / df: 15 / LogL: -10822.909
+Partition chr21_68.fa / Model: HKY+F / df: 15 / LogL: -12186.212
+Partition chr21_73.fa / Model: HKY+F+G4 / df: 16 / LogL: -13224.325
+Partition chr21_82.fa / Model: HKY+F+G4 / df: 16 / LogL: -12331.576
+Partition chr21_103.fa / Model: TPM3+F+I / df: 17 / LogL: -13126.592
+Partition chr21_79.fa / Model: TPM2+F+G4 / df: 17 / LogL: -12202.029
+Partition chr21_126.fa / Model: HKY+F+G4 / df: 16 / LogL: -13569.124
+Partition chr21_67.fa / Model: HKY+F+I / df: 16 / LogL: -12692.035
+Partition chr21_80.fa / Model: TPM3+F+G4 / df: 17 / LogL: -13301.411
+Partition chr21_39.fa / Model: HKY+F+I / df: 16 / LogL: -9302.484
+Partition chr21_58.fa / Model: TPM2+F+G4 / df: 17 / LogL: -13098.131
+Partition chr21_17.fa / Model: HKY+F+G4 / df: 16 / LogL: -11915.857
+Partition chr21_59.fa / Model: HKY+F / df: 15 / LogL: -10272.254
+Partition chr21_25.fa / Model: HKY+F+G4 / df: 16 / LogL: -13453.473
+Partition chr21_65.fa / Model: TPM3+F+I / df: 17 / LogL: -13263.441
+Partition chr21_124.fa / Model: HKY+F+I / df: 16 / LogL: -13434.354
+Partition chr21_23.fa / Model: TN+F+I / df: 17 / LogL: -13344.378
+Partition chr21_125.fa / Model: HKY+F+G4 / df: 16 / LogL: -13382.203
+Partition chr21_21.fa / Model: HKY+F+G4 / df: 16 / LogL: -11862.733
+Partition chr21_105.fa / Model: HKY+F+G4 / df: 16 / LogL: -12755.372
+Partition chr21_19.fa / Model: HKY+F+I / df: 16 / LogL: -10656.856
+Partition chr21_69.fa / Model: HKY+F+G4 / df: 16 / LogL: -11622.396
+Partition chr21_66.fa / Model: TVM+F+I / df: 19 / LogL: -10340.417
+Partition chr21_104.fa / Model: HKY+F+I / df: 16 / LogL: -12695.702
+Partition chr21_11.fa / Model: TPM2+F+I / df: 17 / LogL: -10713.468
+Partition chr21_44.fa / Model: HKY+F / df: 15 / LogL: -11835.048
+Partition chr21_86.fa / Model: HKY+F+I / df: 16 / LogL: -10532.903
+Partition chr21_101.fa / Model: K3Pu+F+I / df: 17 / LogL: -12119.416
+Partition chr21_87.fa / Model: HKY+F+G4 / df: 16 / LogL: -10127.215
+Partition chr21_38.fa / Model: HKY+F+G4 / df: 16 / LogL: -11107.949
+Partition chr21_128.fa / Model: HKY+F+I / df: 16 / LogL: -12808.680
+Partition chr21_95.fa / Model: HKY+F / df: 15 / LogL: -9775.899
+Partition chr21_120.fa / Model: TPM2+F+G4 / df: 17 / LogL: -11991.699
+Partition chr21_129.fa / Model: TPM2+F+G4 / df: 17 / LogL: -11969.064
+Partition chr21_93.fa / Model: HKY+F+I / df: 16 / LogL: -8559.613
+Partition chr21_20.fa / Model: K3Pu+F+I / df: 17 / LogL: -12987.230
+Partition chr21_85.fa / Model: TPM3+F / df: 16 / LogL: -10590.758
+Partition chr21_57.fa / Model: TPM2+F+G4 / df: 17 / LogL: -11693.697
+Partition chr21_37.fa / Model: HKY+F+I / df: 16 / LogL: -12547.024
+Partition chr21_84.fa / Model: HKY+F / df: 15 / LogL: -9110.135
+Partition chr21_32.fa / Model: HKY+F / df: 15 / LogL: -10687.785
+Partition chr21_116.fa / Model: HKY+F / df: 15 / LogL: -9380.429
+Partition chr21_94.fa / Model: HKY+F+G4 / df: 16 / LogL: -12079.475
+Partition chr21_22.fa / Model: HKY+F / df: 15 / LogL: -10198.261
+Partition chr21_10.fa / Model: HKY+F+I / df: 16 / LogL: -11873.370
+Partition chr21_18.fa / Model: TPM3+F / df: 16 / LogL: -10405.597
+Partition chr21_43.fa / Model: HKY+F / df: 15 / LogL: -7595.725
+Partition chr21_70.fa / Model: TPM2+F+G4 / df: 17 / LogL: -12005.358
+Partition chr21_6.fa / Model: HKY+F / df: 15 / LogL: -9822.220
+Partition chr21_5.fa / Model: HKY+F+G4 / df: 16 / LogL: -11691.743
+Partition chr21_77.fa / Model: HKY+F+I / df: 16 / LogL: -8420.417
+Partition chr21_88.fa / Model: HKY+F+I / df: 16 / LogL: -10501.720
+Partition chr21_30.fa / Model: HKY+F+I / df: 16 / LogL: -10778.598
+Partition chr21_74.fa / Model: HKY+F+G4 / df: 16 / LogL: -8739.963
+Partition chr21_106.fa / Model: HKY+F+I / df: 16 / LogL: -11142.552
+Partition chr21_41.fa / Model: HKY+F+I / df: 16 / LogL: -9164.253
+Partition chr21_75.fa / Model: HKY+F+I / df: 16 / LogL: -7045.425
+Partition chr21_14.fa / Model: HKY+F / df: 15 / LogL: -8782.347
+Partition chr21_16.fa / Model: HKY+F+I / df: 16 / LogL: -7755.581
+Partition chr21_35.fa / Model: HKY+F+I / df: 16 / LogL: -10774.909
+Partition chr21_2.fa / Model: K3Pu+F+I / df: 17 / LogL: -11171.265
+Partition chr21_24.fa / Model: HKY+F / df: 15 / LogL: -7504.912
+Partition chr21_42.fa / Model: HKY+F+G4 / df: 16 / LogL: -11640.863
+Partition chr21_3.fa / Model: HKY+F / df: 15 / LogL: -7781.393
+Partition chr21_13.fa / Model: TN+F+I / df: 17 / LogL: -6692.768
+Partition chr21_89.fa / Model: HKY+F / df: 15 / LogL: -6340.838
+Partition chr21_130.fa / Model: K3Pu+F+I / df: 17 / LogL: -3350.879
+Partition chr21_61.fa / Model: HKY+F+G4 / df: 16 / LogL: -6465.938
+Partition chr21_92.fa / Model: TN+F+G4 / df: 17 / LogL: -11296.996
+Partition chr21_34.fa / Model: HKY+F / df: 15 / LogL: -5757.653
+Partition chr21_99.fa / Model: HKY+F+G4 / df: 16 / LogL: -8059.782
+Partition chr21_15.fa / Model: HKY+F / df: 15 / LogL: -4096.034
+Partition chr21_8.fa / Model: HKY+F / df: 15 / LogL: -6439.760
+Partition chr21_7.fa / Model: HKY+F+G4 / df: 16 / LogL: -5300.526
+Partition chr21_110.fa / Model: HKY+F / df: 15 / LogL: -2963.375
+Partition chr21_90.fa / Model: HKY+F+I / df: 16 / LogL: -10494.760
+Partition chr21_133.fa / Model: HKY+F+I / df: 16 / LogL: -3721.512
+Partition chr21_96.fa / Model: HKY+F / df: 15 / LogL: -1596.326
+Partition chr21_4.fa / Model: HKY+F / df: 15 / LogL: -4201.872
+Partition chr21_1.fa / Model: HKY+F+G4 / df: 16 / LogL: -5491.634
+Partition chr21_91.fa / Model: TN+F+G4 / df: 17 / LogL: -11157.730
+Optimal log-likelihood: -1056733.136
+Partition information was printed to output/trees/chr21.best_model.nex
+BEST SCORE FOUND : -1056733.136
+Total tree length: 50.510
+
+Total number of iterations: 0
+CPU time used for tree search: 59.040 sec (0h:0m:59s)
+Wall-clock time used for tree search: 14.960 sec (0h:0m:14s)
+Total CPU time used: 60.077 sec (0h:1m:0s)
+Total wall-clock time used: 15.230 sec (0h:0m:15s)
+
+Analysis results written to: 
+  IQ-TREE report:                output/trees/chr21.iqtree
+  Maximum-likelihood tree:       output/trees/chr21.treefile
+  Screen log file:               output/trees/chr21.log
+
+Date and Time: Tue Oct 18 17:20:41 2022

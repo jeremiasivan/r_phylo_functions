@@ -1,2 +1,0 @@
-(HmelRef,((HeraRef,Hhim),Hhsa),(Htel,(Hdem,Hsar)));
-(HmelRef,(((HeraRef,Hhim),Hhsa),(Hdem,Hsar)),Htel);
