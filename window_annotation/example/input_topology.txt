@@ -1,2 +1,8 @@
+(HmelRef,((HeraRef,Hhim),(Hhsa,Htel)),(Hdem,Hsar));
+(HmelRef,(((HeraRef,Hhim),Hhsa),Htel),(Hdem,Hsar));
 (HmelRef,((HeraRef,Hhim),Hhsa),(Htel,(Hdem,Hsar)));
+(HmelRef,(HeraRef,Hhim),((Hhsa,Htel),(Hdem,Hsar)));
+(HmelRef,((HeraRef,Hhim),Htel),(Hhsa,(Hdem,Hsar)));
+(HmelRef,(HeraRef,Hhim),(Htel,(Hhsa,(Hdem,Hsar))));
 (HmelRef,(((HeraRef,Hhim),Hhsa),(Hdem,Hsar)),Htel);
+(HmelRef,(((HeraRef,Hhim),Htel),Hhsa),(Hdem,Hsar));
