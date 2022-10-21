@@ -2,7 +2,8 @@
 The following R script can be used to run HMM and compare the results of MAST and sliding-windows techniques
 
 ### Notes
-- WIP
+- *run_hmm.R* has not been tested yet
+- *example* is WIP
 - The code is developed and tested in macOS Monterey v12.6 and R v4.1.3 (installed in Conda environment)
 
 ### Dataset
