@@ -126,30 +126,30 @@ windowAnnotate <- function(outdir, topologydir, chr) {
   
   write.table(seq_len, paste(outdir,"/",chr,"_annotation.txt",sep=""),quote=F,sep="\t",row.names=F,col.names=T)
 
-  # # extracting essential columns
-  # dat <- apply(seq_len, 1,
-  #              function(x) data.table(chromosome = x["chromosome"], bp = x["start"]:x["stop"], topology = x["topology"])) %>%
-  #   rbindlist()
-  # 
-  # # plotting the chromosome using random color
-  # log_info("Plotting...")
-  # tiff(filename=paste(outdir,"/",chr,"_topology.tiff",sep=""),units="px",width=250,height=1800)
-  # print(ggplot() + 
-  #   geom_rect(data=dat,aes(fill=topology,ymin=bp-1,ymax=bp,xmin=0,xmax=1)) +
-  #   labs(x=chr) +
-  #   # scale_fill_manual(values = c("black","firebrick2","dodgerblue3","darkseagreen1","darkgoldenrod1","rosybrown1")) +
-  #   scale_fill_brewer(palette="Set1") +
-  #   theme(panel.background = element_rect(fill = "white", colour = "white", size = 0.5, linetype = "solid")) +
-  #   theme(
-  #     axis.title.x=element_blank(),
-  #     axis.text.x=element_blank(),
-  #     axis.ticks.x=element_blank(),
-  #     axis.text.y=element_text(size=20),
-  #     legend.title=element_blank(),
-  #     legend.text=element_text(size=20),
-  #     legend.key.size=unit(2,"cm")
-  #     ))
-  # dev.off()
+  # extracting essential columns
+  dat <- apply(seq_len, 1,
+               function(x) data.table(chromosome = x["chromosome"], bp = x["start"]:x["stop"], topology = x["topology"])) %>%
+    rbindlist()
+
+  # plotting the chromosome using random color
+  log_info("Plotting...")
+  tiff(filename=paste(outdir,"/",chr,"_topology.tiff",sep=""),units="px",width=250,height=1800)
+  print(ggplot() +
+    geom_rect(data=dat,aes(fill=topology,ymin=bp-1,ymax=bp,xmin=0,xmax=1)) +
+    labs(x=chr) +
+    # scale_fill_manual(values = c("black","firebrick2","dodgerblue3","darkseagreen1","darkgoldenrod1","rosybrown1")) +
+    scale_fill_brewer(palette="Set1") +
+    theme(panel.background = element_rect(fill = "white", colour = "white", size = 0.5, linetype = "solid")) +
+    theme(
+      axis.title.x=element_blank(),
+      axis.text.x=element_blank(),
+      axis.ticks.x=element_blank(),
+      axis.text.y=element_text(size=20),
+      legend.title=element_blank(),
+      legend.text=element_text(size=20),
+      legend.key.size=unit(2,"cm")
+      ))
+  dev.off()
 
   log_info("Done!")
 }

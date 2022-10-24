@@ -1,8 +1,9 @@
 # this code is used to set up environment and run HMM using Conda
-# required packages: logger, optparse, MixtureModelHMM (https://github.com/roblanf/MixtureModelHMM)
+# required packages: logger, optparse, data.table, MixtureModelHMM (https://github.com/roblanf/MixtureModelHMM)
 
 library(logger)
 library(optparse)
+library(data.table)
 
 # retrieve the input parameters
 c_dir <- getwd()
@@ -48,13 +49,17 @@ log_info("Running HMM...")
 hmm_result <- run_HMM(site_info = sitelh, aln_info = alninfo)
 save_report(hmm_result = hmm_result, output_filename = paste(opt$out,"/hmm_report.Rmd",sep=""))
 
+# save files
+write.table(hmm_result$hmm_transition_table, file = paste(opt$out,"/hmm_transition_table.txt",sep=""), quote=F, row.names=F)
+fwrite(hmm_result$classification, file = paste(opt$out,"/hmm_classification.txt",sep=""))
+
 # visualization
 log_info("Plotting...")
-tiff(filename="siteprob.tiff")
-plot_scatter(siteprob)
-dev.off()
+# tiff(filename="hmm_siteprob.tiff", units="px", width=1000, height=1000)
+# plot_scatter(siteprob)
+# dev.off()
 
-tiff(filename="alignment_plot.tiff")
+tiff(filename="hmm_alignment_plot.tiff", units="px", width=1000, height=1000)
 hmm_result$alignment_plot
 dev.off()
 

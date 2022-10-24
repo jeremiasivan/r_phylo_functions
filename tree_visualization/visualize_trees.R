@@ -12,6 +12,8 @@ c_dir <- getwd()
 option_list <- list(
   make_option(c("-f", "--file"), type="character", default=NULL, 
               help="input treefile", metavar="character"),
+  make_option(c("-r", "--root"), type="character", default=NULL, 
+              help="taxa as root", metavar="character"),
   make_option(c("-o", "--out"), type="character", default=c_dir, 
               help=paste("output dir [current=",c_dir,"]", sep=""), metavar="character")
 )
@@ -36,7 +38,13 @@ log_info(paste("Number of trees: ",as.character(length(tre))),sep="")
 count <- 1
 for (tree in 1:length(tre)){
   tiff(filename=paste(opt$out,"/T",as.character(count),".tiff",sep=""), units="px", width=2880, height=1800)
-  plot.phylo(tre[[count]], cex=2.4, font=3)
+  
+  if (is.null(opt$root) == F){
+    plot.phylo(root(tre[[count]],opt$root), cex=2.4, font=3)
+  } else {
+    plot.phylo(tre[[count]], cex=2.4, font=3)
+  }
+  
   edgelabels(round(tre[[count]]$edge.length,7), frame="none", cex=2, adj=c(0.5,-0.5))
   dev.off()
   
