@@ -1,8 +1,9 @@
 # this code is used to plot sliding tree and MAST tree topologies
-# required packages: logger, optparse, utils, ggplot2
+# required packages: logger, optparse, stringr, utils, ggplot2
 
 library(logger)
 library(optparse)
+library(stringr)
 library(utils)
 library(ggplot2)
 
@@ -45,11 +46,13 @@ plotSiteProb <- function(siteprobf, alninfof, annotationf, outdir) {
   siteprob$Site <- NULL
   
   # create empty dataframe
-  tree_header <- paste("T", 1:ncol(siteprob), sep="")
-  empty_matrix <- as.data.frame(matrix(rep(0, 2+length(tree_header)), nrow=ncol(siteprob)+1, ncol=ncol(siteprob)+2))
-  names(empty_matrix) <- c("NT",tree_header,"match")
+  tree_header <- str_sort(colnames(siteprob))
+  tree_topology <- str_sort(unique(annotation$topology))
   
-  output <- data.frame(topology = c("NT",tree_header))
+  empty_matrix <- as.data.frame(matrix(rep(0, length(tree_header)), nrow=length(tree_topology), ncol=length(tree_header)+1))
+  names(empty_matrix) <- c(tree_header,"NT")
+  
+  output <- data.frame(topology = tree_topology)
   output <- cbind(output, empty_matrix)
   
   # calculate the proportion of sites per window
@@ -70,7 +73,7 @@ plotSiteProb <- function(siteprobf, alninfof, annotationf, outdir) {
           cat("\n")
           log_info(paste("Mutiple best topology for window",i,"site",j,sep=" "))
         }
-        output[idx_topology,idx_max+2] <- output[idx_topology,idx_max+2] + 1
+        output[idx_topology,idx_max+1] <- output[idx_topology,idx_max+1] + 1
       }
     }
     
@@ -79,19 +82,13 @@ plotSiteProb <- function(siteprobf, alninfof, annotationf, outdir) {
   
   close(pb)
   
-  # calculate the proportion of matching sites per topology
-  log_info("Calculating matching sites proportion...")
-  for (i in 1:nrow(output)) {
-    output$match[i] <- round((output[i,i+1]/sum(output[i,3:ncol(output)-1])*100),5)
-  }
-  
   write.table(output, file=paste(outdir,"/mast_to_window.tsv",sep=""), sep = "\t", quote = F, row.names = F)
   
   # visualization
   log_info("Visualizing...")
   sub_output <- data.frame()
   for (i in 1:nrow(output)) {
-    for (j in 4:ncol(output)-1) {
+    for (j in 3:ncol(output)-1) {
       sub_output <- rbind(sub_output, c(output$topology[i],colnames(output[j]),output[i,j]))
     }
   }
@@ -102,8 +99,6 @@ plotSiteProb <- function(siteprobf, alninfof, annotationf, outdir) {
   print(ggplot(sub_output, aes(fill=sites, y=as.numeric(frequency), x=topology)) + 
           geom_bar(position="dodge", stat="identity") +
           ggtitle("Distribution of Informative Sites in Sliding Windows Topology") + 
-          xlab("sliding windows topology") +
-          ylab("frequency of sites") +
           theme(
             plot.title = element_text(hjust = 0.5, size = 40),
             axis.title.x=element_blank(),
@@ -127,14 +122,15 @@ plotHMMClassification <- function(hmmf, annotationf, outdir){
   log_info("Reading files...")
   annotation <- read.csv(annotationf, sep = "\t")
   hmm <- read.table(hmmf)
-  classes <- lapply(list(unique(hmm[,1])),sort)
   
   # create empty dataframe
-  tree_header <- paste("T", 1:length(classes[[1]]), sep="")
-  empty_matrix <- as.data.frame(matrix(rep(0, 1+length(tree_header)), nrow=length(classes[[1]])+1, ncol=length(classes[[1]])+1))
-  names(empty_matrix) <- c(tree_header,"match")
+  tree_header <- str_sort(unique(hmm[,1]))
+  tree_topology <- str_sort(unique(annotation$topology))
   
-  output <- data.frame(topology = c("NT",tree_header))
+  empty_matrix <- as.data.frame(matrix(rep(0, length(tree_header)), nrow=length(tree_topology), ncol=length(tree_header)))
+  names(empty_matrix) <- tree_header
+  
+  output <- data.frame(topology = tree_topology)
   output <- cbind(output, empty_matrix)
   
   # calculate the proportion of sites per window
@@ -146,7 +142,7 @@ plotHMMClassification <- function(hmmf, annotationf, outdir){
     idx_topology <- which(output$topology == annotation$topology[i])
     
     for (j in 1:length(subset)) {
-      idx_max <- match(subset[j],classes[[1]])
+      idx_max <- match(subset[j],tree_header)
       output[idx_topology,idx_max+1] <- output[idx_topology,idx_max+1] + 1
     }
     
@@ -155,19 +151,13 @@ plotHMMClassification <- function(hmmf, annotationf, outdir){
   
   close(pb)
   
-  # calculate the proportion of matching sites per topology
-  log_info("Calculating matching sites proportion...")
-  for (i in 2:nrow(output)) {
-    output$match[i] <- round((output[i,i]/sum(output[i,3:ncol(output)-1])*100),5)
-  }
-  
   write.table(output, file=paste(outdir,"/hmm_to_window.tsv",sep=""), sep = "\t", quote = F, row.names = F)
   
   # visualization
   log_info("Visualizing...")
   sub_output <- data.frame()
   for (i in 1:nrow(output)) {
-    for (j in 3:ncol(output)-1) {
+    for (j in 2:ncol(output)) {
       sub_output <- rbind(sub_output, c(output$topology[i],colnames(output[j]),output[i,j]))
     }
   }
@@ -178,8 +168,6 @@ plotHMMClassification <- function(hmmf, annotationf, outdir){
   print(ggplot(sub_output, aes(fill=sites, y=as.numeric(frequency), x=topology)) + 
           geom_bar(position="dodge", stat="identity") +
           ggtitle("Distribution of HMM Sites in Sliding Windows Topology") + 
-          xlab("sliding windows topology") +
-          ylab("frequency of HMM sites") +
           theme(
             plot.title = element_text(hjust = 0.5, size = 40),
             axis.title.x=element_blank(),

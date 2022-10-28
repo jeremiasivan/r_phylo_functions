@@ -1,9 +1,21 @@
 ## Comparison of MAST+HMM and Sliding Windows
 The following R script can be used to run HMM and compare the results of MAST and sliding-windows techniques
 
+### HMM Installation via Conda
+```
+$ conda create hmm
+$ conda activate hmm
+$ conda install -c conda-forge r-essentials r-devtools r-testit r-kmer
+```
+
+Then, install the rest of the dependencies via R
+```
+$ install.packages("aphid", dependencies = F)
+$ library("devtools")
+$ install_github("roblanf/MixtureModelHMM", dependencies = F)
+```
+
 ### Notes
-- *run_hmm.R* has not been tested yet
-- *example* is WIP
 - The code is developed and tested in macOS Monterey v12.6 and R v4.1.3 (installed in Conda environment)
 
 ### Dataset

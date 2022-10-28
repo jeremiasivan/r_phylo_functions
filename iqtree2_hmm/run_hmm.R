@@ -11,8 +11,6 @@ c_dir <- getwd()
 option_list <- list(
   make_option(c("-i", "--input"), type="character", default=NULL, 
               help="directory of iqtree2 files", metavar="character"),
-  make_option("--conda", type="logical", default=F,
-              help="set up conda environment; please make sure conda is installed", metavar="logical"),
   make_option(c("-o", "--out"), type="character", default=c_dir, 
               help=paste("output dir [current=",c_dir,"]", sep=""), metavar="character")
 )
@@ -29,21 +27,13 @@ if (file.exists(opt$out)==F) {
   dir.create(opt$out)
 }
 
-# set-up conda environment
-if (opt$conda) {
-  system("conda install -c conda-forge r-essentials r-devtools r-testit r-kmer")
-  install.packages("aphid", dependencies = F)
-  library("devtools")
-  install_github("roblanf/MixtureModelHMM", dependencies = F)
-}
-
 # run HMM
 library("MixtureModelHMM")
 
 log_info("Reading IQTree2 files...")
-alninfo <- system(paste("ls | find ", opt$input, "/*.alninfo", sep=""))
-siteprob <- system(paste("ls | find ", opt$input, "/*.siteprob", sep=""))
-sitelh <- system(paste("ls | find ", opt$input, "/*.sitelh", sep=""))
+alninfo <- system(paste("ls | find ", opt$input, "/*.alninfo", sep=""), intern = T)
+siteprob <- system(paste("ls | find ", opt$input, "/*.siteprob", sep=""), intern = T)
+sitelh <- system(paste("ls | find ", opt$input, "/*.sitelh", sep=""), intern = T)
 
 log_info("Running HMM...")
 hmm_result <- run_HMM(site_info = sitelh, aln_info = alninfo)
@@ -55,11 +45,11 @@ fwrite(hmm_result$classification, file = paste(opt$out,"/hmm_classification.txt"
 
 # visualization
 log_info("Plotting...")
-# tiff(filename="hmm_siteprob.tiff", units="px", width=1000, height=1000)
-# plot_scatter(siteprob)
-# dev.off()
+tiff(filename=paste(opt$out,"/hmm_siteprob.tiff",sep=""), units="px", width=1000, height=1000)
+plot_scatter(siteprob)
+dev.off()
 
-tiff(filename="hmm_alignment_plot.tiff", units="px", width=1000, height=1000)
+tiff(filename=paste(opt$out,"/hmm_alignment_plot.tiff",sep=""), units="px", width=1000, height=1000)
 hmm_result$alignment_plot
 dev.off()
 
