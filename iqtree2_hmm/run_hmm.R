@@ -35,21 +35,32 @@ alninfo <- system(paste("ls | find ", opt$input, "/*.alninfo", sep=""), intern =
 siteprob <- system(paste("ls | find ", opt$input, "/*.siteprob", sep=""), intern = T)
 sitelh <- system(paste("ls | find ", opt$input, "/*.sitelh", sep=""), intern = T)
 
-log_info("Running HMM...")
-hmm_result <- run_HMM(site_info = sitelh, aln_info = alninfo)
-save_report(hmm_result = hmm_result, output_filename = paste(opt$out,"/hmm_report.Rmd",sep=""))
-
-# save files
-write.table(hmm_result$hmm_transition_table, file = paste(opt$out,"/hmm_transition_table.txt",sep=""), quote=F, row.names=F)
-fwrite(hmm_result$classification, file = paste(opt$out,"/hmm_classification.txt",sep=""))
-
-# visualization
-log_info("Plotting...")
-tiff(filename=paste(opt$out,"/hmm_siteprob.tiff",sep=""), units="px", width=1000, height=1000)
+log_info("Plotting siteprob...")
+tiff(filename=paste(opt$out,"/siteprob.tiff",sep=""), units="px", width=1000, height=1000)
 plot_scatter(siteprob)
 dev.off()
 
-tiff(filename=paste(opt$out,"/hmm_alignment_plot.tiff",sep=""), units="px", width=1000, height=1000)
+# sitelh
+log_info("Running HMM with sitelh...")
+hmm_result <- run_HMM(site_info = sitelh, aln_info = alninfo)
+save_report(hmm_result = hmm_result, output_filename = paste(opt$out,"/sitelh_report.Rmd",sep=""))
+
+write.table(hmm_result$hmm_transition_table, file = paste(opt$out,"/sitelh_transition_table.txt",sep=""), quote=F, row.names=F)
+fwrite(list(hmm_result$classification), file = paste(opt$out,"/sitelh_classification.txt",sep=""))
+
+tiff(filename=paste(opt$out,"/sitelh_alignment_plot.tiff",sep=""), units="px", width=1000, height=1000)
+hmm_result$alignment_plot
+dev.off()
+
+# siteprob
+log_info("Running HMM with siteprob...")
+hmm_result <- run_HMM(site_info = siteprob, aln_info = alninfo)
+save_report(hmm_result = hmm_result, output_filename = paste(opt$out,"/siteprob_report.Rmd",sep=""))
+
+write.table(hmm_result$hmm_transition_table, file = paste(opt$out,"/siteprob_transition_table.txt",sep=""), quote=F, row.names=F)
+fwrite(list(hmm_result$classification), file = paste(opt$out,"/siteprob_classification.txt",sep=""))
+
+tiff(filename=paste(opt$out,"/siteprob_alignment_plot.tiff",sep=""), units="px", width=1000, height=1000)
 hmm_result$alignment_plot
 dev.off()
 
