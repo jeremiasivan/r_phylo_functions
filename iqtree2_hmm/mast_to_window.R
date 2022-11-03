@@ -65,15 +65,21 @@ plotSiteProb <- function(siteprobf, alninfof, annotationf, outdir) {
     idx_topology <- which(output$topology == annotation$topology[i])
     
     for (j in 1:nrow(subset)) {
+      order_lnl <- sort(subset[j,])
+      low_bound <- as.numeric(order_lnl[ncol(subset)] - abs(0.1*order_lnl[ncol(subset)]))
+      
+      # exclude non-informative sites
       if (inf_sites$Stat[j] != "I"){
         output$NT[idx_topology] <- output$NT[idx_topology] + 1
       } else {
-        idx_max <- which(subset[j,] == max(subset[j,]))
-        if (length(idx_max) != 1){
-          cat("\n")
-          log_info(paste("Mutiple best topology for window",i,"site",j,sep=" "))
+        idx_max <- which(subset[j,] > low_bound)
+
+        # exclude sites that prefer all topologies
+        if (length(idx_max) == ncol(subset)){
+          output$NT[idx_topology] <- output$NT[idx_topology] + 1
+        } else {
+          output[idx_topology,idx_max+1] <- output[idx_topology,idx_max+1] + 1
         }
-        output[idx_topology,idx_max+1] <- output[idx_topology,idx_max+1] + 1
       }
     }
     
