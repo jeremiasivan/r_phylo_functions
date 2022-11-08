@@ -13,6 +13,7 @@ $ Rscript annotate_windows.R --help
 ```
 
 ### Notes
+- `-a 3` might return an error if there is a lot of window alignments. Please run *iqtree2* from Terminal if that happens.
 - Coloring of chromosome is based on topologies, not locations
 - The code only works for single chromosome
 - The code is developed and tested in macOS Monterey v12.6 and R v4.1.3 (installed in Conda environment)

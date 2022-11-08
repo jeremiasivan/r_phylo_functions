@@ -44,7 +44,7 @@ concatFasta <- function(inputdir, outdir, seqkitdir, nthread, chr){
 }
 
 # function to generate window trees
-windowTree <- function(inputdir, outdir, iqtreedir, nthread, chr){
+windowTree <- function(inputdir, outdir, iqtreedir, outgroup, nthread, chr){
   if (is.null(inputdir)){
     stop("Missing argument: fasta files directory (see --help)", call.=FALSE)
   }
@@ -61,7 +61,11 @@ windowTree <- function(inputdir, outdir, iqtreedir, nthread, chr){
   # constructing phylogenetic trees using IQTree2
   log_info("Generating window trees...")
   prefix <- paste(outdir,chr, sep="")
-  system(paste(iqtreedir,"-S",inputdir,"--quiet -redo -pre",prefix,"-T",nthread, sep=" "))
+  if (is.null(outgroup)){
+    system(paste(iqtreedir,"-S",inputdir,"--quiet -redo -pre",prefix,"-T",nthread, sep=" "))
+  } else {
+    system(paste(iqtreedir,"-S",inputdir,"--quiet -redo -pre",prefix,"-o",outgroup,"-T",nthread, sep=" "))
+  }
   
   log_info("Done!")
 }
@@ -155,7 +159,7 @@ windowAnnotate <- function(outdir, topologydir, chr) {
 }
 
 # function to do all
-allSteps <- function(inputdir, outdir, seqkitdir, iqtreedir, topologydir, nthread, chr) {
+allSteps <- function(inputdir, outdir, seqkitdir, iqtreedir, topologydir, outgroup, nthread, chr) {
   if (is.null(inputdir)){
     stop("Missing argument: fasta files directory (see --help)", call.=FALSE)
   }
@@ -173,6 +177,6 @@ allSteps <- function(inputdir, outdir, seqkitdir, iqtreedir, topologydir, nthrea
   }
   
   concatFasta(inputdir, outdir, seqkitdir, nthread, chr)
-  windowTree(inputdir, outdir, iqtreedir, nthread, chr)
+  windowTree(inputdir, outdir, iqtreedir, outgroup, nthread, chr)
   windowAnnotate(outdir, topologydir, chr)
 }

@@ -17,6 +17,8 @@ option_list <- list(
               help="chromosome name [default=%default]", metavar="character"),
   make_option("--fasta", type="character", default=NULL, 
               help="directory of fasta files (required for analysis 2,3)", metavar="character"),
+  make_option("--outgroup", type="character", default=NULL, 
+              help="outgroup species (optional for analysis 3)", metavar="character"),
   make_option("--topology", type="character", default=NULL, 
               help="directory of topology file (required for analysis 4)", metavar="character"),
   make_option("--seqkit", type="character", default=NULL, 
@@ -56,8 +58,8 @@ source(paste(getCurrentFileLocation(),"/annotate_windows_f.R",sep=""))
 
 # switch according to the type of analysis
 switch(opt$analysis,
-       allSteps(opt$fasta, opt$out, opt$seqkit, opt$iqtree2, opt$topology, opt$thread, opt$chr),
+       allSteps(opt$fasta, opt$out, opt$seqkit, opt$iqtree2, opt$topology, opt$outgroup, opt$thread, opt$chr),
        concatFasta(opt$fasta, opt$out, opt$seqkit, opt$thread, opt$chr),
-       windowTree(opt$fasta, opt$out, opt$iqtree2, opt$thread, opt$chr),
+       windowTree(opt$fasta, opt$out, opt$iqtree2, opt$outgroup, opt$thread, opt$chr),
        windowAnnotate(opt$out, opt$topology, opt$chr)
 )

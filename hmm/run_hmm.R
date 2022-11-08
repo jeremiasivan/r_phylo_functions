@@ -1,4 +1,4 @@
-# this code is used to set up environment and run HMM using Conda
+# this code is used to run HMM based on IQTree output
 # required packages: logger, optparse, data.table, MixtureModelHMM (https://github.com/roblanf/MixtureModelHMM)
 
 library(logger)
