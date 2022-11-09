@@ -15,6 +15,9 @@ $ library("devtools")
 $ install_github("roblanf/MixtureModelHMM", dependencies = F)
 ```
 
+### Known Error(s)
+- `run_hmm.R` might not work due to an issue in `save_report` function in <a href="https://github.com/roblanf/MixtureModelHMM/issues/20">`HMMMixtureModel`</a>. As it only happens in Linux OS, you might want to use another OS or comment out the code if not necessary.
+
 ### Notes
-- `run_hmm.R` might not work due to an issue in `save_report` function in <a href="https://github.com/roblanf/MixtureModelHMM/issues/20">`HMMMixtureModel`</a>
+- By default, sites with <10% likelihood difference between topologies are considered to support multiple topologies
 - The code is developed and tested in macOS Monterey v12.6 and R v4.1.3 (installed in Conda environment)

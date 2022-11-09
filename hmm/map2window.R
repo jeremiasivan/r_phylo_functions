@@ -1,4 +1,4 @@
-# this code is used to plot sliding tree and MAST tree topologies
+# this code is used to plot proportion of sites from MAST that supports window topology
 # required packages: logger, optparse, stringr, utils, ggplot2
 
 library(logger)
@@ -49,7 +49,7 @@ plotSiteProb <- function(siteprobf, alninfof, annotationf, outdir) {
   tree_header <- str_sort(colnames(siteprob))
   tree_topology <- str_sort(unique(annotation$topology))
   
-  empty_matrix <- as.data.frame(matrix(rep(0, length(tree_header)), nrow=length(tree_topology), ncol=length(tree_header)+1))
+  empty_matrix <- as.data.frame(matrix(rep(0, length(tree_header)+1), nrow=length(tree_topology), ncol=length(tree_header)+1))
   names(empty_matrix) <- c(tree_header,"NT")
   
   output <- data.frame(topology = tree_topology)
