@@ -262,8 +262,14 @@ msMastComparison <- function(ms,hmm,treeMap,outdir){
       summarise(n=n())
     
     for (j in 1:nrow(sites_sum)) {
-      window_idx <- as.numeric(sites_sum$tree[j]) + 1
-      output[topology_idx,window_idx] = output[topology_idx,window_idx] + sites_sum$n[j]
+      tree_idx <- which(tmfile[,3]==as.numeric(sites_sum$tree[j]))
+      window_idx <- which(colnames(output)==tmfile[tree_idx,1])
+      
+      if (length(window_idx) == 0) {
+        output$NT[topology_idx] = output$NT[topology_idx] + sites_sum$n[j]
+      } else {
+        output[topology_idx,window_idx] = output[topology_idx,window_idx] + sites_sum$n[j]
+      }
     }
   }
   
